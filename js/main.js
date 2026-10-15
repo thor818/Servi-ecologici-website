@@ -137,6 +137,56 @@
     }).join("");
   }
 
+  /* ---------- Home slideshow ---------- */
+  (function heroSlideshow() {
+    var box = $("#hero-slides"), dots = $("#hero-dots");
+    if (!box || !D.hero || D.hero.length < 2) return;
+    box.innerHTML = D.hero.map(function (h, i) {
+      return '<div class="hero-slide' + (h.vintage ? " vintage" : "") + (i ? "" : " on") + '" style="background-image:url(\'' + esc(h.src) + '\')"></div>';
+    }).join("");
+    dots.innerHTML = D.hero.map(function (h, i) { return '<span' + (i ? "" : ' class="on"') + '></span>'; }).join("");
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var slides = $$(".hero-slide", box), bars = $$("span", dots), cur = 0;
+    D.hero.forEach(function (h) { var im = new Image(); im.src = h.src; });
+    setInterval(function () {
+      slides[cur].classList.remove("on"); bars[cur].classList.remove("on");
+      cur = (cur + 1) % slides.length;
+      void slides[cur].offsetWidth;
+      slides[cur].classList.add("on"); bars[cur].classList.add("on");
+    }, 6500);
+  })();
+
+  /* ---------- Training carousel ---------- */
+  function renderTraining() {
+    var track = $("#training-track");
+    if (!track || !D.training) return;
+    track.innerHTML = D.training.map(function (p, i) {
+      var parts = t(p.caption).split(" · ");
+      return '<figure data-zoom="' + esc(p.src) + '" data-caption="' + esc(parts.join(" · ")) + '">' +
+        '<img src="' + esc(p.src) + '" alt="' + esc(parts[0]) + '" loading="lazy">' +
+        '<span class="idx">' + (i < 9 ? "0" : "") + (i + 1) + '</span>' +
+        '<figcaption><b>' + esc(parts[0]) + '</b>' + (parts[1] ? '<small>' + esc(parts[1]) + '</small>' : '') + '</figcaption></figure>';
+    }).join("");
+    updateCount();
+  }
+  function updateCount() {
+    var track = $("#training-track"), first = $("figure", track);
+    if (!first) return;
+    var step = first.getBoundingClientRect().width + 18;
+    var n = Math.min(D.training.length, Math.round(track.scrollLeft / step) + 1);
+    var pad = function (x) { return (x < 10 ? "0" : "") + x; };
+    $("#training-count").textContent = pad(n) + " / " + pad(D.training.length);
+  }
+  if ($("#training-track")) {
+    $("#training-track").addEventListener("scroll", function () { window.requestAnimationFrame(updateCount); }, { passive: true });
+    [["#training-prev", -1], ["#training-next", 1]].forEach(function (b) {
+      $(b[0]).addEventListener("click", function () {
+        var track = $("#training-track"), first = $("figure", track);
+        track.scrollBy({ left: b[1] * (first.getBoundingClientRect().width + 18), behavior: "smooth" });
+      });
+    });
+  }
+
   /* ---------- Lightbox (gallery + history photos) ---------- */
   var lb = $("#lightbox");
   document.addEventListener("click", function (e) {
@@ -389,7 +439,7 @@
   onScroll();
 
   function revealAll() {
-    var els = $$(".section h2, .section .lead, .chapter, .feature-photo, .timeline li, .photo-strip figure, .didier-grid, .press, .featured, .course, .past, .gallery figure, .advice, .product, .contact-grid > *");
+    var els = $$(".section h2, .section .lead, .quote-band blockquote, .chapter, .feature-photo, .timeline li, .photo-strip figure, .didier-grid, .press, .featured, .course, .past, .gallery figure, .advice, .product, .contact-grid > *");
     if (!("IntersectionObserver" in window)) return;
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
@@ -409,7 +459,7 @@
     ".section .eyebrow, .section h2, .section .lead:not(#contact-location), .chapter-text h3, .chapter-text p, " +
     ".feature-photo figcaption, .timeline-title, .timeline li, .photo-strip figcaption, .didier-text p, .record span, " +
     ".shop-soon-tag, #shop-soon h3, #shop-soon p, .form-label, #contact-form option, .form .btn, .footer p:last-child, " +
-    ".drawer-head h3, .chat-head span";
+    ".drawer-head h3, .chat-head span, .quote-band p, .training-hint";
   var staticEls = $$(STATIC).map(function (el) { return { el: el, en: el.innerHTML }; });
 
   function applyLang(lang) {
@@ -420,6 +470,7 @@
     $$("[data-lang]").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-lang") === lang); b.setAttribute("aria-pressed", b.getAttribute("data-lang") === lang); });
     renderCourses();
     renderGallery();
+    renderTraining();
     renderAdvice();
     renderContact();
     renderChatQuick();

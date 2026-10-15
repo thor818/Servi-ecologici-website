@@ -35,6 +35,7 @@
   <nav class="nav-links">
     <a href="#history">History</a>
     <a href="#didier">Didier</a>
+    <a href="#training">Training</a>
     <a href="#courses">Courses</a>
     <a href="#gallery">Gallery</a>
     <a href="#advice">Advice</a>
@@ -51,7 +52,8 @@
 
 <!-- ================= HERO ================= -->
 <section class="hero">
-  <div class="hero-bg" style="background-image:url('images/history/kurosaki-dojo-high-kick.jpg')"></div>
+  <div class="hero-slides" id="hero-slides"><div class="hero-slide vintage on" style="background-image:url('images/history/kurosaki-dojo-high-kick.jpg')"></div></div>
+  <div class="hero-dots" id="hero-dots" aria-hidden="true"></div>
   <div class="hero-outline" aria-hidden="true">BRIZON</div>
   <div class="hero-inner">
     <p class="hero-kicker"><span></span>Tokyo · Amsterdam · Clermont-Ferrand</p>
@@ -220,6 +222,30 @@
     </div>
   </div>
 </section>
+
+<!-- ================= TRAINING CAROUSEL ================= -->
+<section class="section training" id="training">
+  <div class="wrap training-head">
+    <div>
+      <p class="eyebrow">On the mats</p>
+      <h2>Training with the Master</h2>
+    </div>
+    <div class="training-nav">
+      <span class="training-count" id="training-count">01 / 09</span>
+      <button type="button" class="round-btn" id="training-prev" aria-label="Previous photo">←</button>
+      <button type="button" class="round-btn" id="training-next" aria-label="Next photo">→</button>
+    </div>
+  </div>
+  <div class="training-track" id="training-track"></div>
+  <p class="wrap training-hint">Swipe to see more</p>
+</section>
+
+<div class="quote-band" style="background-image:url('images/gallery/didier-tatami-relax.jpg')">
+  <blockquote class="wrap">
+    <p>A champion is someone who gets up when he can't.</p>
+    <cite>Jack Dempsey</cite>
+  </blockquote>
+</div>
 
 <!-- ================= COURSES ================= -->
 <section class="section" id="courses">

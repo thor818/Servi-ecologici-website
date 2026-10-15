@@ -192,24 +192,36 @@ window.BRIZON = {
 
 
   /* ---------- Gallery (student photos) ---------- */
-  gallery: [
-    { src: "images/gallery/sparring-color-flag.jpg", caption: "Sparring with Didier" },
-    { src: "images/gallery/didier-tatami-kneeling.jpg", caption: "Didier on the mat" },
-    { src: "images/gallery/didier-tatami-relax.jpg", caption: "Between two rounds" },
+  /* ---------- Home page slideshow (vintage = old photo with the red tint) ---------- */
+  hero: [
+    { src: "images/history/kurosaki-dojo-high-kick.jpg", vintage: true },
+    { src: "images/gallery/didier-attack-color.jpg" },
+    { src: "images/gallery/high-kick-pads-color.jpg" },
+    { src: "images/gallery/sparring-color-flag.jpg" }
+  ],
+
+  /* ---------- "Training with the Master" carousel ---------- */
+  training: [
     { src: "images/gallery/didier-attack-color.jpg", caption: "Didier on the attack · Photo © May Elin Aunli" },
     { src: "images/gallery/didier-audace-trieste.jpg", caption: "Sparring at Audace Fight & Fitness Club, Trieste · Photo © May Elin Aunli" },
-    { src: "images/gallery/pads-ring.jpg", caption: "On the pads with Didier · Photo © May Elin Aunli" },
     { src: "images/gallery/high-kick-pads-color.jpg", caption: "High kick on the pads · Photo © May Elin Aunli" },
+    { src: "images/gallery/pads-ring.jpg", caption: "On the pads with Didier · Photo © May Elin Aunli" },
+    { src: "images/gallery/sparring-color-flag.jpg", caption: "Sparring with Didier" },
     { src: "images/gallery/didier-teep.jpg", caption: "Teep and distance · Photo © May Elin Aunli" },
     { src: "images/gallery/kick-and-check.jpg", caption: "Kick and check · Photo © May Elin Aunli" },
     { src: "images/gallery/sparring-ring.jpg", caption: "Muay Thai sparring in the ring · Photo © May Elin Aunli" },
-    { src: "images/gallery/jab-and-guard.jpg", caption: "Jab and guard · Photo © May Elin Aunli" },
+    { src: "images/gallery/jab-and-guard.jpg", caption: "Jab and guard · Photo © May Elin Aunli" }
+  ],
+
+  /* ---------- Gallery (bento grid: 1st big, 4th tall, 6th wide) ---------- */
+  gallery: [
+    { src: "images/gallery/didier-tatami-kneeling.jpg", caption: "Didier on the mat" },
     { src: "images/history/fight-team-red.jpg", caption: "Fight Team in the locker room" },
-    { src: "images/history/didier-corner.jpg", caption: "Didier in the corner" },
     { src: "images/history/mma-victory.jpg", caption: "Victory in the cage" },
+    { src: "images/history/didier-corner.jpg", caption: "Didier in the corner" },
     { src: "images/history/kids-training.jpg", caption: "Young fighters on the pads" },
-    { src: "images/history/didier-today.jpg", caption: "Didier today" },
-    { src: "images/brand/fight-team-jacket.jpg", caption: "Brizon Gym Fight Team colours" }
+    { src: "images/brand/fight-team-jacket.jpg", caption: "Brizon Gym Fight Team colours" },
+    { src: "images/history/didier-today.jpg", caption: "Didier today" }
   ],
 
   /* ---------- Advice from the coach ---------- */

@@ -951,5 +951,30 @@ window.BRIZON_I18N = {
   "fr": "Entre deux rounds",
   "it": "Tra un round e l'altro",
   "pt": "Entre dois assaltos"
+ },
+ "Training": {
+  "fr": "Entraînement",
+  "it": "Allenamento",
+  "pt": "Treino"
+ },
+ "On the mats": {
+  "fr": "Sur le tatami",
+  "it": "Sul tatami",
+  "pt": "No tatami"
+ },
+ "Training with the Master": {
+  "fr": "L'entraînement avec le Maître",
+  "it": "In allenamento con il Maestro",
+  "pt": "Treino com o Mestre"
+ },
+ "Swipe to see more": {
+  "fr": "Faites glisser pour voir la suite",
+  "it": "Scorri per vedere le altre",
+  "pt": "Desliza para ver mais"
+ },
+ "A champion is someone who gets up when he can't.": {
+  "fr": "Un champion, c'est quelqu'un qui se relève quand il ne peut plus.",
+  "it": "Un campione è uno che si rialza quando non ce la fa più.",
+  "pt": "Um campeão é alguém que se levanta quando já não consegue."
  }
 };
