@@ -896,5 +896,45 @@ window.BRIZON_I18N = {
   "fr": "Instagram et coordonnées bientôt disponibles.",
   "it": "Instagram e contatti in arrivo.",
   "pt": "Instagram e contactos em breve."
+ },
+ "Didier on the attack · Photo © May Elin Aunli": {
+  "fr": "Didier à l'attaque · Photo © May Elin Aunli",
+  "it": "Didier all'attacco · Foto © May Elin Aunli",
+  "pt": "Didier ao ataque · Foto © May Elin Aunli"
+ },
+ "Sparring at Audace Fight & Fitness Club, Trieste · Photo © May Elin Aunli": {
+  "fr": "Sparring à l'Audace Fight & Fitness Club, Trieste · Photo © May Elin Aunli",
+  "it": "Sparring all'Audace Fight & Fitness Club, Trieste · Foto © May Elin Aunli",
+  "pt": "Sparring no Audace Fight & Fitness Club, Trieste · Foto © May Elin Aunli"
+ },
+ "On the pads with Didier · Photo © May Elin Aunli": {
+  "fr": "Aux pattes d'ours avec Didier · Photo © May Elin Aunli",
+  "it": "Ai colpitori con Didier · Foto © May Elin Aunli",
+  "pt": "Nas manoplas com Didier · Foto © May Elin Aunli"
+ },
+ "High kick on the pads · Photo © May Elin Aunli": {
+  "fr": "High kick aux pattes d'ours · Photo © May Elin Aunli",
+  "it": "Calcio alto ai colpitori · Foto © May Elin Aunli",
+  "pt": "Pontapé alto nas manoplas · Foto © May Elin Aunli"
+ },
+ "Teep and distance · Photo © May Elin Aunli": {
+  "fr": "Teep et distance · Photo © May Elin Aunli",
+  "it": "Teep e distanza · Foto © May Elin Aunli",
+  "pt": "Teep e distância · Foto © May Elin Aunli"
+ },
+ "Kick and check · Photo © May Elin Aunli": {
+  "fr": "Coup de pied et blocage · Photo © May Elin Aunli",
+  "it": "Calcio e parata · Foto © May Elin Aunli",
+  "pt": "Pontapé e bloqueio · Foto © May Elin Aunli"
+ },
+ "Muay Thai sparring in the ring · Photo © May Elin Aunli": {
+  "fr": "Sparring de Muay Thai sur le ring · Photo © May Elin Aunli",
+  "it": "Sparring di Muay Thai sul ring · Foto © May Elin Aunli",
+  "pt": "Sparring de Muay Thai no ringue · Foto © May Elin Aunli"
+ },
+ "Jab and guard · Photo © May Elin Aunli": {
+  "fr": "Jab et garde · Photo © May Elin Aunli",
+  "it": "Jab e guardia · Foto © May Elin Aunli",
+  "pt": "Jab e guarda · Foto © May Elin Aunli"
  }
 };
