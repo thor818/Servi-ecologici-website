@@ -193,6 +193,9 @@ window.BRIZON = {
 
   /* ---------- Gallery (student photos) ---------- */
   gallery: [
+    { src: "images/gallery/sparring-color-flag.jpg", caption: "Sparring with Didier" },
+    { src: "images/gallery/didier-tatami-kneeling.jpg", caption: "Didier on the mat" },
+    { src: "images/gallery/didier-tatami-relax.jpg", caption: "Between two rounds" },
     { src: "images/gallery/didier-attack-color.jpg", caption: "Didier on the attack · Photo © May Elin Aunli" },
     { src: "images/gallery/didier-audace-trieste.jpg", caption: "Sparring at Audace Fight & Fitness Club, Trieste · Photo © May Elin Aunli" },
     { src: "images/gallery/pads-ring.jpg", caption: "On the pads with Didier · Photo © May Elin Aunli" },

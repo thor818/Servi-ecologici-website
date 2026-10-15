@@ -936,5 +936,20 @@ window.BRIZON_I18N = {
   "fr": "Jab et garde · Photo © May Elin Aunli",
   "it": "Jab e guardia · Foto © May Elin Aunli",
   "pt": "Jab e guarda · Foto © May Elin Aunli"
+ },
+ "Sparring with Didier": {
+  "fr": "Sparring avec Didier",
+  "it": "Sparring con Didier",
+  "pt": "Sparring com Didier"
+ },
+ "Didier on the mat": {
+  "fr": "Didier sur le tatami",
+  "it": "Didier sul tatami",
+  "pt": "Didier no tatami"
+ },
+ "Between two rounds": {
+  "fr": "Entre deux rounds",
+  "it": "Tra un round e l'altro",
+  "pt": "Entre dois assaltos"
  }
 };
