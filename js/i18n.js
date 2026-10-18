@@ -976,5 +976,100 @@ window.BRIZON_I18N = {
   "fr": "Un champion, c'est quelqu'un qui se relève quand il ne peut plus.",
   "it": "Un campione è uno che si rialza quando non ce la fa più.",
   "pt": "Um campeão é alguém que se levanta quando já não consegue."
+ },
+ "In Mejiro Gym colours": {
+  "fr": "Aux couleurs du Mejiro Gym",
+  "it": "Con i colori del Mejiro Gym",
+  "pt": "Com as cores do Mejiro Gym"
+ },
+ "Muay Thai, in the ring": {
+  "fr": "Muay Thai, sur le ring",
+  "it": "Muay Thai, sul ring",
+  "pt": "Muay Thai, no ringue"
+ },
+ "Guard up": {
+  "fr": "Garde haute",
+  "it": "Guardia alta",
+  "pt": "Guarda alta"
+ },
+ "Ready to train": {
+  "fr": "Prêt pour l'entraînement",
+  "it": "Pronto per allenarsi",
+  "pt": "Pronto para treinar"
+ },
+ "Seminar day": {
+  "fr": "Jour de stage",
+  "it": "Giorno di stage",
+  "pt": "Dia de estágio"
+ },
+ "On the heavy bag": {
+  "fr": "Au sac de frappe",
+  "it": "Al sacco",
+  "pt": "No saco"
+ },
+ "Portraits through the years": {
+  "fr": "Portraits au fil des ans",
+  "it": "Ritratti negli anni",
+  "pt": "Retratos ao longo dos anos"
+ },
+ "In the locker room with Madelen Søfteland, Brizon Gym": {
+  "fr": "Au vestiaire avec Madelen Søfteland, Brizon Gym",
+  "it": "Nello spogliatoio con Madelen Søfteland, Brizon Gym",
+  "pt": "No balneário com Madelen Søfteland, Brizon Gym"
+ },
+ "In the corner, Brizon Gym colours": {
+  "fr": "Dans le coin, aux couleurs du Brizon Gym",
+  "it": "All'angolo, con i colori del Brizon Gym",
+  "pt": "No canto, com as cores do Brizon Gym"
+ },
+ "Holding the pads": {
+  "fr": "Aux pattes d'ours",
+  "it": "Ai colpitori",
+  "pt": "Nas manoplas"
+ },
+ "With the Bare Knuckle FC team": {
+  "fr": "Avec l'équipe Bare Knuckle FC",
+  "it": "Con il team Bare Knuckle FC",
+  "pt": "Com a equipa Bare Knuckle FC"
+ },
+ "Knee and teep on the pads": {
+  "fr": "Genou et teep aux pattes d'ours",
+  "it": "Ginocchio e teep ai colpitori",
+  "pt": "Joelho e teep nas manoplas"
+ },
+ "Wrapping hands before the fight": {
+  "fr": "Bandage des mains avant le combat",
+  "it": "Fasciatura delle mani prima dell'incontro",
+  "pt": "Ligar as mãos antes do combate"
+ },
+ "Fighters": {
+  "fr": "Combattants",
+  "it": "Combattenti",
+  "pt": "Lutadores"
+ },
+ "In the corner": {
+  "fr": "Dans le coin",
+  "it": "All'angolo",
+  "pt": "No canto"
+ },
+ "The Master's fighters": {
+  "fr": "Les combattants du Maître",
+  "it": "I combattenti del Maestro",
+  "pt": "Os lutadores do Mestre"
+ },
+ "From the hand wraps in the locker room to the corner on fight night: Didier prepares his fighters for Muay Thai, K-1, MMA and bare knuckle events.": {
+  "fr": "Du bandage des mains au vestiaire jusqu'au coin le soir du combat : Didier prépare ses combattants pour le Muay Thai, le K-1, le MMA et le bare knuckle.",
+  "it": "Dalla fasciatura delle mani nello spogliatoio fino all'angolo la sera dell'incontro: Didier prepara i suoi combattenti per Muay Thai, K-1, MMA e bare knuckle.",
+  "pt": "Das ligaduras no balneário ao canto na noite do combate: Didier prepara os seus lutadores para Muay Thai, K-1, MMA e bare knuckle."
+ },
+ "Tested & approved by Didier Le Borgne": {
+  "fr": "Testé et approuvé par Didier Le Borgne",
+  "it": "Testato e approvato da Didier Le Borgne",
+  "pt": "Testado e aprovado por Didier Le Borgne"
+ },
+ "High kick on the pads": {
+  "fr": "High kick aux pattes d'ours",
+  "it": "Calcio alto ai colpitori",
+  "pt": "Pontapé alto nas manoplas"
  }
 };

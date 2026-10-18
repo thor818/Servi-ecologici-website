@@ -197,7 +197,30 @@ window.BRIZON = {
     { src: "images/history/kurosaki-dojo-high-kick.jpg", vintage: true },
     { src: "images/gallery/didier-attack-color.jpg" },
     { src: "images/gallery/high-kick-pads-color.jpg" },
-    { src: "images/gallery/sparring-color-flag.jpg" }
+    { src: "images/gallery/sparring-color-flag.jpg" },
+    { src: "images/didier/heavy-bag-dark.jpg" }
+  ],
+
+  /* ---------- Didier: portraits through the years ---------- */
+  portraits: [
+    { src: "images/didier/mejiro-gym-young.jpg", caption: "In Mejiro Gym colours" },
+    { src: "images/didier/muay-thai-ring.jpg", caption: "Muay Thai, in the ring" },
+    { src: "images/didier/adidas-blue-ring.jpg", caption: "Guard up" },
+    { src: "images/didier/adidas-kickboxing.jpg", caption: "Kick-boxing" },
+    { src: "images/didier/sap-gym-rashguard.jpg", caption: "Ready to train" },
+    { src: "images/didier/adidas-blue-gloves.jpg", caption: "Seminar day" },
+    { src: "images/didier/heavy-bag-dark.jpg", caption: "On the heavy bag" }
+  ],
+
+  /* ---------- Fighters (bento: 1st big, 4th tall, 6th wide) ---------- */
+  fighters: [
+    { src: "images/fighters/locker-room-madelen.jpg", caption: "In the locker room with Madelen Søfteland, Brizon Gym" },
+    { src: "images/fighters/brizon-jacket-didier.jpg", caption: "In the corner, Brizon Gym colours" },
+    { src: "images/fighters/didier-pads-sap.jpg", caption: "Holding the pads" },
+    { src: "images/fighters/bkfc-team.jpg", caption: "With the Bare Knuckle FC team" },
+    { src: "images/fighters/pads-teep-leone.jpg", caption: "Knee and teep on the pads" },
+    { src: "images/fighters/hand-wraps.jpg", caption: "Wrapping hands before the fight" },
+    { src: "images/fighters/pads-high-kick-red.jpg", caption: "High kick on the pads" }
   ],
 
   /* ---------- "Training with the Master" carousel ---------- */
@@ -226,17 +249,17 @@ window.BRIZON = {
 
   /* ---------- Advice from the coach ---------- */
   advice: [
-    { title: "Guard first, always", tag: "Technique",
+    { title: "Guard first, always", image: "images/gallery/jab-and-guard.jpg", tag: "Technique",
       text: "Hands up and chin down before every exchange. The fighter who drops his guard to throw is the one who gets countered." },
-    { title: "Kick through, not to", tag: "Technique",
+    { title: "Kick through, not to", image: "images/fighters/pads-high-kick-red.jpg", tag: "Technique",
       text: "In the Mejiro style the low kick goes through the target with the hip turned over. Aim behind the leg, not at it." },
-    { title: "Wrap your hands every time", tag: "Equipment",
+    { title: "Wrap your hands every time", image: "images/fighters/hand-wraps.jpg", tag: "Equipment",
       text: "Hand wraps protect the small bones of the hand and wrist. Never put gloves on bare hands, even for light bag work." },
-    { title: "Mouthguard and protection", tag: "Equipment",
+    { title: "Mouthguard and protection", image: "images/gallery/kick-and-check.jpg", tag: "Equipment",
       text: "For sparring: mouthguard, shin guards, groin guard (men) or chest protector (women). Good gear lets you train for years." },
-    { title: "Recover like a pro", tag: "Health",
+    { title: "Recover like a pro", image: "images/gallery/didier-tatami-relax.jpg", tag: "Health",
       text: "Sleep, water and rest days are part of training. Hard sessions only work when the body has time to rebuild." },
-    { title: "Respect in and out of the ring", tag: "Spirit",
+    { title: "Respect in and out of the ring", image: "images/fighters/locker-room-madelen.jpg", tag: "Spirit",
       text: "Bow to your partner, protect each other in sparring, thank your coach. That is the spirit Patrick Brizon left to the gym." }
   ],
 

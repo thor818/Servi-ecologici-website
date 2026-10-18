@@ -128,6 +128,18 @@
   });
 
   /* ---------- Gallery ---------- */
+  function figures(list) {
+    return list.map(function (g) {
+      var cap = t(g.caption);
+      return '<figure data-zoom="' + esc(g.src) + '" data-caption="' + esc(cap) + '">' +
+        '<img src="' + esc(g.src) + '" alt="' + esc(cap) + '" loading="lazy">' +
+        '<figcaption>' + esc(cap) + '</figcaption></figure>';
+    }).join("");
+  }
+  function renderPeople() {
+    if ($("#fighters-grid") && D.fighters) $("#fighters-grid").innerHTML = figures(D.fighters);
+    if ($("#portrait-strip") && D.portraits) $("#portrait-strip").innerHTML = figures(D.portraits);
+  }
   function renderGallery() {
     $("#gallery-grid").innerHTML = D.gallery.map(function (g) {
       var cap = t(g.caption);
@@ -202,7 +214,9 @@
   /* ---------- Advice ---------- */
   function renderAdvice() {
     $("#advice-grid").innerHTML = D.advice.map(function (a) {
-      return '<div class="advice"><span class="tag">' + esc(t(a.tag)) + '</span>' +
+      return '<div class="advice' + (a.image ? ' has-img' : '') + '">' +
+        (a.image ? '<div class="advice-img"><img src="' + esc(a.image) + '" alt="" loading="lazy"></div>' : '') +
+        '<span class="tag">' + esc(t(a.tag)) + '</span>' +
         '<h4>' + esc(t(a.title)) + '</h4><p>' + esc(t(a.text)) + '</p></div>';
     }).join("");
   }
@@ -459,7 +473,7 @@
     ".section .eyebrow, .section h2, .section .lead:not(#contact-location), .chapter-text h3, .chapter-text p, " +
     ".feature-photo figcaption, .timeline-title, .timeline li, .photo-strip figcaption, .didier-text p, .record span, " +
     ".shop-soon-tag, #shop-soon h3, #shop-soon p, .form-label, #contact-form option, .form .btn, .footer p:last-child, " +
-    ".drawer-head h3, .chat-head span, .quote-band p, .training-hint";
+    ".drawer-head h3, .chat-head span, .quote-band p, .training-hint, .strip-title, .tested figcaption";
   var staticEls = $$(STATIC).map(function (el) { return { el: el, en: el.innerHTML }; });
 
   function applyLang(lang) {
@@ -470,12 +484,13 @@
     $$("[data-lang]").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-lang") === lang); b.setAttribute("aria-pressed", b.getAttribute("data-lang") === lang); });
     renderCourses();
     renderGallery();
+    renderPeople();
     renderTraining();
     renderAdvice();
     renderContact();
     renderChatQuick();
     renderCart();
-    $$(".course, .featured, .past, .gallery figure, .advice").forEach(function (el) { el.classList.add("in"); });
+    $$(".course, .featured, .past, .gallery figure, .portrait-strip figure, .advice").forEach(function (el) { el.classList.add("in"); });
   }
   $$("[data-lang]").forEach(function (b) {
     b.addEventListener("click", function () { applyLang(b.getAttribute("data-lang")); links.classList.remove("open"); });
