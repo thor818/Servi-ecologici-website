@@ -199,6 +199,53 @@
     });
   }
 
+  /* ---------- Videos (YouTube, loaded only when tapped) ---------- */
+  var videoCat = "All", currentVideo = null;
+  function thumb(id) { return "https://i.ytimg.com/vi/" + id + "/hqdefault.jpg"; }
+  function showPlayer(v, autoplay) {
+    currentVideo = v;
+    var box = $("#video-player");
+    if (!box) return;
+    if (autoplay) {
+      box.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + esc(v.id) + '?autoplay=1&rel=0" title="' + esc(v.title) +
+        '" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+    } else {
+      box.innerHTML = '<button type="button" class="player-facade" data-play="' + esc(v.id) + '" style="background-image:url(\'' + thumb(v.id) + '\')">' +
+        '<span class="play-icon" aria-hidden="true">▶</span><span class="player-info"><small>' + esc(t(v.category)) + '</small><b>' + esc(v.title) + '</b></span>' +
+        '<span class="sr-only">' + esc(t("Play video")) + '</span></button>';
+    }
+    $$("#video-grid .video-card").forEach(function (c) { c.classList.toggle("active", c.getAttribute("data-video") === v.id); });
+  }
+  function renderVideos() {
+    if (!D.videos || !$("#video-grid")) return;
+    var cats = ["All"].concat(D.videos.map(function (v) { return v.category; }).filter(function (c, i, a) { return a.indexOf(c) === i; }));
+    $("#video-filter").innerHTML = cats.map(function (c) {
+      return '<button class="chip' + (c === videoCat ? " active" : "") + '" data-vcat="' + esc(c) + '">' + esc(t(c)) + '</button>';
+    }).join("");
+    $("#video-grid").innerHTML = D.videos.filter(function (v) { return videoCat === "All" || v.category === videoCat; }).map(function (v) {
+      return '<button type="button" class="video-card" data-video="' + esc(v.id) + '">' +
+        '<span class="vthumb"><img src="' + thumb(v.id) + '" alt="" loading="lazy"><span class="mini-play" aria-hidden="true">▶</span></span>' +
+        '<span class="vtext"><small>' + esc(t(v.category)) + '</small><b>' + esc(v.title) + '</b></span></button>';
+    }).join("");
+    if (!currentVideo || !$("#video-player iframe")) showPlayer(currentVideo || D.videos[0], false);
+    else showPlayer(currentVideo, true);
+  }
+  if ($("#videos")) {
+    $("#video-filter").addEventListener("click", function (e) {
+      var b = e.target.closest("[data-vcat]"); if (!b) return;
+      videoCat = b.getAttribute("data-vcat"); renderVideos();
+    });
+    $("#video-grid").addEventListener("click", function (e) {
+      var c = e.target.closest("[data-video]"); if (!c) return;
+      var v = D.videos.filter(function (x) { return x.id === c.getAttribute("data-video"); })[0];
+      showPlayer(v, true);
+      $("#video-player").scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+    $("#video-player").addEventListener("click", function (e) {
+      if (e.target.closest("[data-play]") && currentVideo) showPlayer(currentVideo, true);
+    });
+  }
+
   /* ---------- Lightbox (gallery + history photos) ---------- */
   var lb = $("#lightbox");
   document.addEventListener("click", function (e) {
@@ -473,7 +520,7 @@
     ".section .eyebrow, .section h2, .section .lead:not(#contact-location), .chapter-text h3, .chapter-text p, " +
     ".feature-photo figcaption, .timeline-title, .timeline li, .photo-strip figcaption, .didier-text p, .record span, " +
     ".shop-soon-tag, #shop-soon h3, #shop-soon p, .form-label, #contact-form option, .form .btn, .footer p:last-child, " +
-    ".drawer-head h3, .chat-head span, .quote-band p, .training-hint, .strip-title, .tested figcaption";
+    ".drawer-head h3, .chat-head span, .quote-band p, .training-hint, .strip-title, .tested figcaption, .yt-all";
   var staticEls = $$(STATIC).map(function (el) { return { el: el, en: el.innerHTML }; });
 
   function applyLang(lang) {
@@ -485,6 +532,7 @@
     renderCourses();
     renderGallery();
     renderPeople();
+    renderVideos();
     renderTraining();
     renderAdvice();
     renderContact();

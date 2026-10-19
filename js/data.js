@@ -212,6 +212,27 @@ window.BRIZON = {
     { src: "images/didier/heavy-bag-dark.jpg", caption: "On the heavy bag" }
   ],
 
+  /* ---------- Videos (YouTube playlist "Techniques Didier") ---------- */
+  playlist: "PLeh_ekBfJigI",
+  videos: [
+    { id: "20Oopl9IabE", category: "Technique", title: "Didier Le Borgne - Tecniche Thai Boxe (CO ott.2012) p1" },
+    { id: "ljf4SP8Q7r4", category: "Technique", title: "Didier Le Borgne - Tecniche Thai Boxe (CO ott.2012) p2" },
+    { id: "RCqrK6tnGeg", category: "Technique", title: "Didier Le Borgne - Tecniche Thai Boxe (CO ott.2012) p3" },
+    { id: "rRfHqNVhTpo", category: "Technique", title: "Didier le Borgne: tecniche di clinch e gomiti (MI mag.2012)" },
+    { id: "bb1C_q6achw", category: "Technique", title: "MUAY THAI: tecniques with Didier Le Borgne (CANNES lug.2012) p.2" },
+    { id: "7wa67WwBNqU", category: "Technique", title: "K1: techniques with Didier Le Borgne (CANNES lug.2012) p.2" },
+    { id: "5wDsh5SRDsM", category: "Seminars", title: "Stage Didier Le Borgne - K1 / Muay Thai" },
+    { id: "GcXaMw7VKMc", category: "Seminars", title: "Giornata di Stage per amatori con Didier Le Borgne alla ProFightingNapoliClub" },
+    { id: "FODMIAWessU", category: "Seminars", title: "Didier Le Borgne - Stage con Saro Presti e il Maestro Soudareth a Messina" },
+    { id: "clhK6WcE0hE", category: "Seminars", title: "Perlungher Corso Allenatori con Didier Le Borgne (SV sett 2012)" },
+    { id: "WKN4WxVrYOc", category: "Seminars", title: "Glory 35 a Nizza: Riscaldamento Didier Le Borgne e Alessio D'Angelo" },
+    { id: "dZ7sHgqks9w", category: "Story & interviews", title: "Didier Le Borgne e la palestra Mejiro Gym di Jan Plas" },
+    { id: "uQH_whZPBfc", category: "Story & interviews", title: "#ShareYourStory Didier Le Borgne" },
+    { id: "ZzVgfcfDONg", category: "Story & interviews", title: "Aurelio Mastroianni e Didier Le Borgne" },
+    { id: "oc8x2oShz-I", category: "Equipment", title: "Didier Le Borgne in allenamento con guantoni ADIDAS SUPERPRO (MI mag.2012)" },
+    { id: "xzcbzY052pE", category: "Equipment", title: "Didier Le Borgne - Guantoni SHIMAI DYNAMIC" }
+  ],
+
   /* ---------- Fighters (bento: 1st big, 4th tall, 6th wide) ---------- */
   fighters: [
     { src: "images/fighters/locker-room-madelen.jpg", caption: "In the locker room with Madelen Søfteland, Brizon Gym" },

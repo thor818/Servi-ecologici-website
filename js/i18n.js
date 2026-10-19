@@ -1071,5 +1071,50 @@ window.BRIZON_I18N = {
   "fr": "High kick aux pattes d'ours",
   "it": "Calcio alto ai colpitori",
   "pt": "Pontapé alto nas manoplas"
+ },
+ "Techniques": {
+  "fr": "Techniques",
+  "it": "Tecniche",
+  "pt": "Técnicas"
+ },
+ "On video": {
+  "fr": "En vidéo",
+  "it": "In video",
+  "pt": "Em vídeo"
+ },
+ "The Master's techniques": {
+  "fr": "Les techniques du Maître",
+  "it": "Le tecniche del Maestro",
+  "pt": "As técnicas do Mestre"
+ },
+ "Thai boxing techniques, clinch and elbows, K-1, seminars and the story of the Mejiro Gym: watch Didier Le Borgne at work.": {
+  "fr": "Techniques de boxe thaï, clinch et coudes, K-1, stages et l'histoire du Mejiro Gym : regardez Didier Le Borgne à l'œuvre.",
+  "it": "Tecniche di Thai boxe, clinch e gomiti, K-1, stage e la storia del Mejiro Gym: guarda Didier Le Borgne al lavoro.",
+  "pt": "Técnicas de boxe tailandês, clinch e cotovelos, K-1, estágios e a história do Mejiro Gym: vê Didier Le Borgne a trabalhar."
+ },
+ "Seminars": {
+  "fr": "Stages",
+  "it": "Stage",
+  "pt": "Estágios"
+ },
+ "Story & interviews": {
+  "fr": "Histoire & interviews",
+  "it": "Storia e interviste",
+  "pt": "História e entrevistas"
+ },
+ "Watch the whole playlist on YouTube": {
+  "fr": "Voir toute la playlist sur YouTube",
+  "it": "Guarda tutta la playlist su YouTube",
+  "pt": "Ver a playlist completa no YouTube"
+ },
+ "Play video": {
+  "fr": "Lire la vidéo",
+  "it": "Guarda il video",
+  "pt": "Ver o vídeo"
+ },
+ "All": {
+  "fr": "Tous",
+  "it": "Tutti",
+  "pt": "Todos"
  }
 };
