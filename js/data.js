@@ -234,7 +234,7 @@ window.BRIZON = {
   ],
 
   /* ---------- Instagram posts of @didierleborgne (shown under the videos) ---------- */
-  instagram: ["reel/DU3dYjjgWYw", "p/DOxvVg8jG1Q", "reel/DXq5mUPAlfU", "reel/DUQndHODOyX", "reel/DMX7ZpIMaEB", "reel/DMX6KB7Rz8q", "reel/DIZSiylM9uu"],
+  instagram: ["reel/DU3dYjjgWYw", "p/DOxvVg8jG1Q", "reel/DXq5mUPAlfU", "reel/DUQndHODOyX", "reel/DMX7ZpIMaEB", "reel/DMX6KB7Rz8q", "reel/DIZSiylM9uu", "reel/DIRDV_IoYTO", "reel/C4QiNkcN5dz"],
 
   /* ---------- Fighters (bento: 1st big, 4th tall, 6th wide) ---------- */
   fighters: [
