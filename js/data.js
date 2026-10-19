@@ -233,6 +233,9 @@ window.BRIZON = {
     { id: "xzcbzY052pE", category: "Equipment", title: "Didier Le Borgne - Guantoni SHIMAI DYNAMIC" }
   ],
 
+  /* ---------- Instagram posts of @didierleborgne (shown under the videos) ---------- */
+  instagram: ["reel/DU3dYjjgWYw", "p/DOxvVg8jG1Q", "reel/DXq5mUPAlfU", "reel/DUQndHODOyX"],
+
   /* ---------- Fighters (bento: 1st big, 4th tall, 6th wide) ---------- */
   fighters: [
     { src: "images/fighters/locker-room-madelen.jpg", caption: "In the locker room with Madelen Søfteland, Brizon Gym" },

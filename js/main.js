@@ -216,7 +216,15 @@
     }
     $$("#video-grid .video-card").forEach(function (c) { c.classList.toggle("active", c.getAttribute("data-video") === v.id); });
   }
+  function renderInstagram() {
+    var box = $("#ig-strip");
+    if (!box || !D.instagram || box.children.length) return;
+    box.innerHTML = D.instagram.map(function (c) {
+      return '<div class="ig-card"><iframe src="https://www.instagram.com/' + esc(c) + '/embed/" loading="lazy" title="Instagram @didierleborgne" scrolling="no" allowtransparency="true"></iframe></div>';
+    }).join("");
+  }
   function renderVideos() {
+    renderInstagram();
     if (!D.videos || !$("#video-grid")) return;
     var cats = ["All"].concat(D.videos.map(function (v) { return v.category; }).filter(function (c, i, a) { return a.indexOf(c) === i; }));
     $("#video-filter").innerHTML = cats.map(function (c) {
@@ -520,7 +528,7 @@
     ".section .eyebrow, .section h2, .section .lead:not(#contact-location), .chapter-text h3, .chapter-text p, " +
     ".feature-photo figcaption, .timeline-title, .timeline li, .photo-strip figcaption, .didier-text p, .record span, " +
     ".shop-soon-tag, #shop-soon h3, #shop-soon p, .form-label, #contact-form option, .form .btn, .footer p:last-child, " +
-    ".drawer-head h3, .chat-head span, .quote-band p, .training-hint, .strip-title, .tested figcaption, .yt-all";
+    ".drawer-head h3, .chat-head span, .quote-band p, .training-hint, .strip-title, .tested figcaption, .yt-all, .ig-follow";
   var staticEls = $$(STATIC).map(function (el) { return { el: el, en: el.innerHTML }; });
 
   function applyLang(lang) {

@@ -259,6 +259,11 @@ strong { color: #fff; }
 .vtext small { color: var(--red); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; font-size: .66rem; }
 .vtext b { font-weight: 600; font-size: .9rem; line-height: 1.4; }
 .yt-all { margin-top: 30px; }
+.ig-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin: 80px 0 22px; }
+.ig-title { margin: 0; }
+.ig-strip { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 10px; }
+.ig-card { flex: 0 0 340px; max-width: 86vw; height: 640px; background: #fff; border-radius: 10px; overflow: hidden; scroll-snap-align: start; }
+.ig-card iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 /* ---------- Portraits strip ---------- */
 .strip-title { font-size: clamp(1.8rem, 3vw, 2.4rem); margin: 90px 0 22px; }

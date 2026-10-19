@@ -1116,5 +1116,15 @@ window.BRIZON_I18N = {
   "fr": "Tous",
   "it": "Tutti",
   "pt": "Todos"
+ },
+ "From Didier's Instagram": {
+  "fr": "Sur l'Instagram de Didier",
+  "it": "Dall'Instagram di Didier",
+  "pt": "Do Instagram do Didier"
+ },
+ "Follow @didierleborgne": {
+  "fr": "Suivre @didierleborgne",
+  "it": "Segui @didierleborgne",
+  "pt": "Seguir @didierleborgne"
  }
 };
