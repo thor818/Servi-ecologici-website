@@ -234,7 +234,7 @@ window.BRIZON = {
   ],
 
   /* ---------- Instagram posts of @didierleborgne (shown under the videos) ---------- */
-  instagram: ["reel/DU3dYjjgWYw", "p/DOxvVg8jG1Q", "reel/DXq5mUPAlfU", "reel/DUQndHODOyX", "reel/DMX7ZpIMaEB", "reel/DMX6KB7Rz8q", "reel/DIZSiylM9uu", "reel/DIRDV_IoYTO", "reel/C4QiNkcN5dz", "p/CyvZFLDAw_W", "p/C1rOTd3BFMb", "reel/C1otCrNNKO6", "reel/Cu6d9xmKYMx", "p/Cu6doofOblq", "p/CsI1TCLtKlZ", "p/CoRuXHfj3HB", "p/CsDiKM9teJp", "reel/Cnrb6Uiq_nj", "reel/CnrnHv3K_s_", "p/CgjTdCIDj2x", "p/CgZBwXfDOR4", "p/CgWKrU2ovY7", "p/CgTvwBSIdxv", "p/CPnXOHYibnh", "p/CHuASOnpHYQ", "p/CUPkoPGDfbY", "p/CUPkgVyjNzL", "p/CgPH5bjBBsH", "p/CPgXnPdpVbh", "p/CBbSCvQC2lM", "p/CBbQ7OGiMdm", "p/CBbQU5nC-mZ", "p/CBbPbBVipx7", "p/CBbNdq9iF5E", "p/CBbNJ_mi3Yj", "p/CBbM-v9iaD9", "p/CBa_m6ICb24", "p/CBa_MBsCptQ", "p/CBa-_dTiFW1", "p/CBa9rCiiLnj"],
+  instagram: ["reel/DU3dYjjgWYw", "p/DOxvVg8jG1Q", "reel/DXq5mUPAlfU", "reel/DUQndHODOyX", "reel/DMX7ZpIMaEB", "reel/DMX6KB7Rz8q", "reel/DIZSiylM9uu", "reel/DIRDV_IoYTO", "reel/C4QiNkcN5dz", "p/CyvZFLDAw_W", "p/C1rOTd3BFMb", "reel/C1otCrNNKO6", "reel/Cu6d9xmKYMx", "p/Cu6doofOblq", "p/CsI1TCLtKlZ", "p/CoRuXHfj3HB", "p/CsDiKM9teJp", "reel/Cnrb6Uiq_nj", "reel/CnrnHv3K_s_", "p/CgjTdCIDj2x", "p/CgZBwXfDOR4", "p/CgWKrU2ovY7", "p/CgTvwBSIdxv", "p/CPnXOHYibnh", "p/CHuASOnpHYQ", "p/CUPkoPGDfbY", "p/CUPkgVyjNzL", "p/CgPH5bjBBsH", "p/CPgXnPdpVbh", "p/CBbSCvQC2lM", "p/CBbQ7OGiMdm", "p/CBbQU5nC-mZ", "p/CBbPbBVipx7", "p/CBbNdq9iF5E", "p/CBbNJ_mi3Yj", "p/CBbM-v9iaD9", "p/CBa_m6ICb24", "p/CBa_MBsCptQ", "p/CBa-_dTiFW1", "p/CBa9rCiiLnj", "p/CBa8_zQi8NV", "p/CBa8iYfidrp", "p/CBase9JCvIL"],
 
   /* ---------- Fighters (bento: 1st big, 4th tall, 6th wide) ---------- */
   fighters: [
