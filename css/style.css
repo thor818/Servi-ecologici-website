@@ -263,6 +263,9 @@ strong { color: #fff; }
 .ig-title { margin: 0; }
 .ig-strip { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 10px; }
 .ig-card { flex: 0 0 340px; max-width: 86vw; height: 640px; background: #fff; border-radius: 10px; overflow: hidden; scroll-snap-align: start; }
+.ig-more { margin-top: 18px; }
+.ig-strip { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); overflow: visible; }
+.ig-strip .ig-card { max-width: none; height: 545px; }
 .ig-card iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 /* ---------- Portraits strip ---------- */
@@ -481,6 +484,7 @@ strong { color: #fff; }
   .photo-strip img { height: 200px; }
   .gallery { grid-template-columns: 1fr 1fr; grid-auto-rows: 170px; }
   .portrait-strip figure { flex-basis: 62vw; }
+  .ig-card { flex-basis: 100%; max-width: 100%; height: 600px; }
   .play-icon { width: 70px; height: 70px; font-size: 1.5rem; }
   .player-info { left: 16px; right: 16px; bottom: 14px; }
   .advice-img { margin: 0 -22px 18px; }

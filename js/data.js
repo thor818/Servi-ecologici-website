@@ -234,7 +234,7 @@ window.BRIZON = {
   ],
 
   /* ---------- Instagram posts of @didierleborgne (shown under the videos) ---------- */
-  instagram: ["reel/DU3dYjjgWYw", "p/DOxvVg8jG1Q", "reel/DXq5mUPAlfU", "reel/DUQndHODOyX", "reel/DMX7ZpIMaEB", "reel/DMX6KB7Rz8q", "reel/DIZSiylM9uu", "reel/DIRDV_IoYTO", "reel/C4QiNkcN5dz", "p/CyvZFLDAw_W", "p/C1rOTd3BFMb", "reel/C1otCrNNKO6", "reel/Cu6d9xmKYMx", "p/Cu6doofOblq", "p/CsI1TCLtKlZ"],
+  instagram: ["reel/DU3dYjjgWYw", "p/DOxvVg8jG1Q", "reel/DXq5mUPAlfU", "reel/DUQndHODOyX", "reel/DMX7ZpIMaEB", "reel/DMX6KB7Rz8q", "reel/DIZSiylM9uu", "reel/DIRDV_IoYTO", "reel/C4QiNkcN5dz", "p/CyvZFLDAw_W", "p/C1rOTd3BFMb", "reel/C1otCrNNKO6", "reel/Cu6d9xmKYMx", "p/Cu6doofOblq", "p/CsI1TCLtKlZ", "p/CoRuXHfj3HB", "p/CsDiKM9teJp", "reel/Cnrb6Uiq_nj", "reel/CnrnHv3K_s_", "p/CgjTdCIDj2x", "p/CgZBwXfDOR4", "p/CgWKrU2ovY7", "p/CgTvwBSIdxv"],
 
   /* ---------- Fighters (bento: 1st big, 4th tall, 6th wide) ---------- */
   fighters: [

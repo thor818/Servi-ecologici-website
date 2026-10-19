@@ -216,12 +216,20 @@
     }
     $$("#video-grid .video-card").forEach(function (c) { c.classList.toggle("active", c.getAttribute("data-video") === v.id); });
   }
+  var igShown = 0;
   function renderInstagram() {
     var box = $("#ig-strip");
-    if (!box || !D.instagram || box.children.length) return;
-    box.innerHTML = D.instagram.map(function (c) {
+    if (!box || !D.instagram) return;
+    if (!igShown) igShown = Math.min(6, D.instagram.length);
+    var have = box.children.length;
+    box.insertAdjacentHTML("beforeend", D.instagram.slice(have, igShown).map(function (c) {
       return '<div class="ig-card"><iframe src="https://www.instagram.com/' + esc(c) + '/embed/" loading="lazy" title="Instagram @didierleborgne" scrolling="no" allowtransparency="true"></iframe></div>';
-    }).join("");
+    }).join(""));
+    var more = $("#ig-more"), left = D.instagram.length - igShown;
+    if (more) {
+      more.hidden = left <= 0;
+      more.textContent = t("Show more videos") + " (" + left + ")";
+    }
   }
   function renderVideos() {
     renderInstagram();
@@ -237,6 +245,12 @@
     }).join("");
     if (!currentVideo || !$("#video-player iframe")) showPlayer(currentVideo || D.videos[0], false);
     else showPlayer(currentVideo, true);
+  }
+  if ($("#ig-more")) {
+    $("#ig-more").addEventListener("click", function () {
+      igShown = Math.min(D.instagram.length, igShown + 6);
+      renderInstagram();
+    });
   }
   if ($("#videos")) {
     $("#video-filter").addEventListener("click", function (e) {

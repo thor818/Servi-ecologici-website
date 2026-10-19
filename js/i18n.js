@@ -1126,5 +1126,10 @@ window.BRIZON_I18N = {
   "fr": "Suivre @didierleborgne",
   "it": "Segui @didierleborgne",
   "pt": "Seguir @didierleborgne"
+ },
+ "Show more videos": {
+  "fr": "Voir plus de vidéos",
+  "it": "Mostra altri video",
+  "pt": "Ver mais vídeos"
  }
 };
