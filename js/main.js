@@ -280,6 +280,21 @@
   });
   lb.addEventListener("click", function () { lb.classList.remove("open"); });
 
+  /* ---------- Technique sheets ---------- */
+  function renderTechniques() {
+    if (!$("#tech-grid") || !D.techniques) return;
+    $("#tech-grid").innerHTML = D.techniques.map(function (tq, n) {
+      return '<article class="tech">' +
+        '<div class="tech-head"><span class="tech-num">' + ("0" + (n + 1)).slice(-2) + '</span>' +
+        '<div><span class="tag">' + esc(t(tq.tag)) + '</span><h3>' + esc(t(tq.title)) + '</h3></div>' +
+        '<a class="tech-src" target="_blank" rel="noopener" href="' + esc(tq.source) + '">' + esc(t("Watch the video")) + ' ↗</a></div>' +
+        '<ol class="tech-steps">' + tq.steps.map(function (st, i) {
+          return '<li><div class="tech-img"><img src="' + esc(st.image) + '" alt="" loading="lazy"><span>' + (i + 1) + '</span></div>' +
+            '<p>' + esc(t(st.text)) + '</p></li>';
+        }).join("") + '</ol></article>';
+    }).join("");
+  }
+
   /* ---------- Advice ---------- */
   function renderAdvice() {
     $("#advice-grid").innerHTML = D.advice.map(function (a) {
@@ -556,6 +571,7 @@
     renderPeople();
     renderVideos();
     renderTraining();
+    renderTechniques();
     renderAdvice();
     renderContact();
     renderChatQuick();

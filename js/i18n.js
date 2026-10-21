@@ -1136,5 +1136,145 @@ window.BRIZON_I18N = {
   "fr": "« Il Maestro dei Campioni » : né en Algérie le 25 février 1959, l'un des pionniers européens du kick-boxing et du Muay Thai.",
   "it": "«Il Maestro dei Campioni»: nato in Algeria il 25 febbraio 1959, uno dei pionieri europei del kickboxing e della Muay Thai.",
   "pt": "«Il Maestro dei Campioni»: nascido na Argélia a 25 de fevereiro de 1959, um dos pioneiros europeus do kickboxing e do Muay Thai."
+ },
+ "Step by step": {
+  "fr": "Étape par étape",
+  "it": "Passo dopo passo",
+  "pt": "Passo a passo"
+ },
+ "Technique sheets": {
+  "fr": "Fiches techniques",
+  "it": "Schede tecniche",
+  "pt": "Fichas técnicas"
+ },
+ "Four techniques taken from Didier's training videos, broken down frame by frame. Watch the steps, then watch the video.": {
+  "fr": "Quatre techniques tirées des vidéos d'entraînement de Didier, décomposées image par image. Regardez les étapes, puis la vidéo.",
+  "it": "Quattro tecniche prese dai video di allenamento di Didier, scomposte fotogramma per fotogramma. Guarda i passaggi, poi guarda il video.",
+  "pt": "Quatro técnicas tiradas dos vídeos de treino do Didier, decompostas imagem a imagem. Veja os passos e depois o vídeo."
+ },
+ "Watch the video": {
+  "fr": "Voir la vidéo",
+  "it": "Guarda il video",
+  "pt": "Ver o vídeo"
+ },
+ "Kicks": {
+  "fr": "Coups de pied",
+  "it": "Calci",
+  "pt": "Chutes"
+ },
+ "Boxing": {
+  "fr": "Boxe",
+  "it": "Pugilato",
+  "pt": "Boxe"
+ },
+ "Defence": {
+  "fr": "Défense",
+  "it": "Difesa",
+  "pt": "Defesa"
+ },
+ "Footwork": {
+  "fr": "Déplacements",
+  "it": "Gioco di gambe",
+  "pt": "Trabalho de pés"
+ },
+ "Roundhouse kick on the pads": {
+  "fr": "Coup de pied circulaire aux paos",
+  "it": "Calcio circolare ai pao",
+  "pt": "Chute circular nos aparadores"
+ },
+ "Finish the hands with the guard up: the punch sets up the kick.": {
+  "fr": "Finir les poings avec la garde haute : le coup de poing prépare le coup de pied.",
+  "it": "Chiudi la serie di pugni con la guardia alta: il pugno prepara il calcio.",
+  "pt": "Termine os socos com a guarda alta: o soco prepara o chute."
+ },
+ "Step out on the front foot and turn the hip over.": {
+  "fr": "Ouvrir le pied avant et faire tourner la hanche.",
+  "it": "Apri il piede avanti e ruota l'anca.",
+  "pt": "Abra o pé da frente e rode a anca."
+ },
+ "Kick through the pad with the shin, not the foot.": {
+  "fr": "Frapper à travers le pao avec le tibia, pas avec le pied.",
+  "it": "Calcia attraverso il pao con la tibia, non con il piede.",
+  "pt": "Chute através do aparador com a canela, não com o pé."
+ },
+ "Bring the leg straight back and land in guard, ready for the next one.": {
+  "fr": "Ramener la jambe tout droit et retomber en garde, prêt pour le suivant.",
+  "it": "Riporta subito la gamba e torna in guardia, pronto per il prossimo.",
+  "pt": "Traga a perna logo de volta e caia em guarda, pronto para o próximo."
+ },
+ "Mitt work: hit and defend": {
+  "fr": "Pattes d'ours : frapper et défendre",
+  "it": "Lavoro ai colpitori: colpire e difendersi",
+  "pt": "Trabalho de manopla: atacar e defender"
+ },
+ "Stance and guard: chin down, hands at the cheeks, eyes on the coach.": {
+  "fr": "Position et garde : menton baissé, mains aux joues, yeux sur le coach.",
+  "it": "Posizione e guardia: mento basso, mani alle guance, occhi sul coach.",
+  "pt": "Postura e guarda: queixo baixo, mãos nas bochechas, olhos no treinador."
+ },
+ "Jab: the lead hand goes out straight and comes straight back.": {
+  "fr": "Jab : le bras avant part droit et revient droit.",
+  "it": "Jab: la mano avanti parte dritta e torna dritta.",
+  "pt": "Jab: a mão da frente sai reta e volta reta."
+ },
+ "Cross: turn the back foot and hip, the punch follows the shoulder.": {
+  "fr": "Direct du bras arrière : pivoter le pied arrière et la hanche, le poing suit l'épaule.",
+  "it": "Diretto posteriore: ruota il piede dietro e l'anca, il pugno segue la spalla.",
+  "pt": "Direto de trás: rode o pé de trás e a anca, o soco segue o ombro."
+ },
+ "The coach fires back with the mitt: keep the guard up and answer.": {
+  "fr": "Le coach riposte avec la patte d'ours : garder la garde haute et répondre.",
+  "it": "Il coach risponde con il colpitore: tieni la guardia alta e rispondi.",
+  "pt": "O treinador responde com a manopla: mantenha a guarda alta e responda."
+ },
+ "Cover, parry and check the low kick": {
+  "fr": "Couvrir, parer et bloquer le low kick",
+  "it": "Coprire, parare e bloccare il low kick",
+  "pt": "Cobrir, aparar e bloquear o low kick"
+ },
+ "Tight cover: forearms close to the head, elbows in, absorb the punch.": {
+  "fr": "Garde fermée : avant-bras contre la tête, coudes serrés, absorber le coup.",
+  "it": "Copertura stretta: avambracci vicino alla testa, gomiti chiusi, assorbi il colpo.",
+  "pt": "Cobertura fechada: antebraços junto à cabeça, cotovelos fechados, absorva o golpe."
+ },
+ "Parry the straight punch and keep the hands in front of the face.": {
+  "fr": "Parer le direct et garder les mains devant le visage.",
+  "it": "Para il diretto e tieni le mani davanti al viso.",
+  "pt": "Apare o direto e mantenha as mãos à frente do rosto."
+ },
+ "Read the hip: when it turns, the low kick is coming.": {
+  "fr": "Lire la hanche : quand elle tourne, le low kick arrive.",
+  "it": "Leggi l'anca: quando ruota, arriva il low kick.",
+  "pt": "Leia a anca: quando ela roda, o low kick está a chegar."
+ },
+ "Check: lift the shin and turn the knee out to block the kick.": {
+  "fr": "Bloquer : lever le tibia et ouvrir le genou pour arrêter le coup.",
+  "it": "Blocca: alza la tibia e apri il ginocchio per fermare il calcio.",
+  "pt": "Bloqueie: levante a canela e abra o joelho para parar o chute."
+ },
+ "Enter, strike, exit on the angle": {
+  "fr": "Entrer, frapper, sortir en angle",
+  "it": "Entrare, colpire, uscire in angolo",
+  "pt": "Entrar, golpear, sair em ângulo"
+ },
+ "Close the distance with a step, hands up.": {
+  "fr": "Réduire la distance d'un pas, les mains hautes.",
+  "it": "Accorcia la distanza con un passo, mani alte.",
+  "pt": "Feche a distância com um passo, mãos altas."
+ },
+ "Strike as you arrive in range: the step and the punch land together.": {
+  "fr": "Frapper en arrivant à distance : le pas et le coup arrivent ensemble.",
+  "it": "Colpisci appena arrivi a distanza: il passo e il pugno arrivano insieme.",
+  "pt": "Golpeie ao chegar à distância: o passo e o soco chegam juntos."
+ },
+ "Do not stay in front: pivot on the front foot.": {
+  "fr": "Ne pas rester en face : pivoter sur le pied avant.",
+  "it": "Non restare davanti: ruota sul piede avanti.",
+  "pt": "Não fique de frente: rode sobre o pé da frente."
+ },
+ "Exit to the side, out of the line of the counter, and reset.": {
+  "fr": "Sortir sur le côté, hors de la ligne de la riposte, et se replacer.",
+  "it": "Esci di lato, fuori dalla linea del contrattacco, e riparti.",
+  "pt": "Saia para o lado, fora da linha do contra-ataque, e recomece."
  }
 };

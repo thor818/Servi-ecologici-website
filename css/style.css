@@ -215,7 +215,7 @@ strong { color: #fff; }
 .course { background: var(--bg); padding: 30px 26px; display: flex; flex-direction: column; transition: background .3s; }
 .course:hover { background: var(--panel); }
 .course h4 { font-size: 1.6rem; margin: 6px 0 10px; }
-.course .tag, .advice .tag, .product .tag { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: var(--red); }
+.course .tag, .advice .tag, .product .tag, .tech .tag { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: var(--red); }
 .course p { color: var(--muted); font-size: .95rem; flex: 1; }
 .course small { color: #7d7576; text-transform: uppercase; letter-spacing: .1em; font-size: .7rem; }
 .past { margin-top: 56px; }
@@ -503,4 +503,26 @@ strong { color: #fff; }
   .meta { grid-template-columns: 1fr; }
   .past li span { min-width: 0; width: 100%; }
   .advice::before { font-size: 2.6rem; }
+}
+
+/* ---------- Technique sheets ---------- */
+.tech-grid { display: grid; gap: 28px; }
+.tech { border: 1px solid var(--line); background: var(--panel); padding: 28px; border-radius: var(--radius); }
+.tech-head { display: flex; align-items: center; gap: 22px; margin-bottom: 22px; }
+.tech-num { font-family: var(--head); font-size: 3.6rem; line-height: .8; color: transparent; -webkit-text-stroke: 1px var(--red); }
+.tech-head h3 { font-family: var(--head); font-weight: 400; text-transform: uppercase; font-size: 1.7rem; line-height: 1.05; margin: 6px 0 0; letter-spacing: .01em; }
+.tech-src { margin-left: auto; color: var(--muted); font-size: .85rem; text-decoration: none; white-space: nowrap; border-bottom: 1px solid var(--line); }
+.tech-src:hover { color: #fff; border-color: var(--red); }
+.tech-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.tech-img { position: relative; aspect-ratio: 1; overflow: hidden; background: #000; }
+.tech-img img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(.35) contrast(1.05); transition: filter .4s, transform .6s var(--ease); }
+.tech-steps li:hover .tech-img img { filter: none; transform: scale(1.04); }
+.tech-img span { position: absolute; left: 0; top: 0; background: var(--red); color: #fff; font-family: var(--head); font-size: 1.2rem; line-height: 1; padding: 8px 12px; }
+.tech-steps p { margin: 12px 0 0; font-size: .92rem; line-height: 1.55; color: #d6cfcf; }
+@media (max-width: 860px) {
+  .tech { padding: 20px 16px; }
+  .tech-head { flex-wrap: wrap; gap: 14px; }
+  .tech-src { margin-left: 0; width: 100%; }
+  .tech-steps { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .tech-num { font-size: 2.8rem; }
 }

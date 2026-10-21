@@ -271,6 +271,38 @@ window.BRIZON = {
     { src: "images/history/didier-today.jpg", caption: "Didier today" }
   ],
 
+  /* ---------- Technique sheets (frames taken from Didier's Instagram videos) ---------- */
+  techniques: [
+    { title: "Roundhouse kick on the pads", tag: "Kicks", source: "https://www.instagram.com/p/CUPkoPGDfbY/",
+      steps: [
+        { image: "images/techniques/kick-1.jpg", text: "Finish the hands with the guard up: the punch sets up the kick." },
+        { image: "images/techniques/kick-2.jpg", text: "Step out on the front foot and turn the hip over." },
+        { image: "images/techniques/kick-3.jpg", text: "Kick through the pad with the shin, not the foot." },
+        { image: "images/techniques/kick-4.jpg", text: "Bring the leg straight back and land in guard, ready for the next one." }
+      ] },
+    { title: "Mitt work: hit and defend", tag: "Boxing", source: "https://www.instagram.com/p/CHuASOnpHYQ/",
+      steps: [
+        { image: "images/techniques/mitts-1.jpg", text: "Stance and guard: chin down, hands at the cheeks, eyes on the coach." },
+        { image: "images/techniques/mitts-2.jpg", text: "Jab: the lead hand goes out straight and comes straight back." },
+        { image: "images/techniques/mitts-3.jpg", text: "Cross: turn the back foot and hip, the punch follows the shoulder." },
+        { image: "images/techniques/mitts-4.jpg", text: "The coach fires back with the mitt: keep the guard up and answer." }
+      ] },
+    { title: "Cover, parry and check the low kick", tag: "Defence", source: "https://www.instagram.com/reel/DXq5mUPAlfU/",
+      steps: [
+        { image: "images/techniques/check-1.jpg", text: "Tight cover: forearms close to the head, elbows in, absorb the punch." },
+        { image: "images/techniques/check-2.jpg", text: "Parry the straight punch and keep the hands in front of the face." },
+        { image: "images/techniques/check-3.jpg", text: "Read the hip: when it turns, the low kick is coming." },
+        { image: "images/techniques/check-4.jpg", text: "Check: lift the shin and turn the knee out to block the kick." }
+      ] },
+    { title: "Enter, strike, exit on the angle", tag: "Footwork", source: "https://www.instagram.com/reel/DMX6KB7Rz8q/",
+      steps: [
+        { image: "images/techniques/angle-1.jpg", text: "Close the distance with a step, hands up." },
+        { image: "images/techniques/angle-2.jpg", text: "Strike as you arrive in range: the step and the punch land together." },
+        { image: "images/techniques/angle-3.jpg", text: "Do not stay in front: pivot on the front foot." },
+        { image: "images/techniques/angle-4.jpg", text: "Exit to the side, out of the line of the counter, and reset." }
+      ] }
+  ],
+
   /* ---------- Advice from the coach ---------- */
   advice: [
     { title: "Guard first, always", image: "images/gallery/jab-and-guard.jpg", tag: "Technique",
