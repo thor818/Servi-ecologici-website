@@ -300,6 +300,13 @@ window.BRIZON = {
         { image: "images/techniques/angle-2.jpg", text: "Strike as you arrive in range: the step and the punch land together." },
         { image: "images/techniques/angle-3.jpg", text: "Do not stay in front: pivot on the front foot." },
         { image: "images/techniques/angle-4.jpg", text: "Exit to the side, out of the line of the counter, and reset." }
+      ] },
+    { title: "Teep, kicks and hands on the pads", tag: "Pads", source: "https://www.instagram.com/reel/DU3dYjjgWYw/",
+      steps: [
+        { image: "images/techniques/pads-1.jpg", text: "Teep into the belly pad: push through with the ball of the foot, hips forward." },
+        { image: "images/techniques/pads-2.jpg", text: "Round kick: pivot on the standing foot and turn the hip over." },
+        { image: "images/techniques/pads-3.jpg", text: "High kick: swing the arm down for balance and hit with the shin." },
+        { image: "images/techniques/pads-4.jpg", text: "As soon as the leg lands, go back to the hands on the mitts." }
       ] }
   ],
 

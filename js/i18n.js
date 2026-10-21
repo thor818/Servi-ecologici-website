@@ -1147,11 +1147,6 @@ window.BRIZON_I18N = {
   "it": "Schede tecniche",
   "pt": "Fichas técnicas"
  },
- "Four techniques taken from Didier's training videos, broken down frame by frame. Watch the steps, then watch the video.": {
-  "fr": "Quatre techniques tirées des vidéos d'entraînement de Didier, décomposées image par image. Regardez les étapes, puis la vidéo.",
-  "it": "Quattro tecniche prese dai video di allenamento di Didier, scomposte fotogramma per fotogramma. Guarda i passaggi, poi guarda il video.",
-  "pt": "Quatro técnicas tiradas dos vídeos de treino do Didier, decompostas imagem a imagem. Veja os passos e depois o vídeo."
- },
  "Watch the video": {
   "fr": "Voir la vidéo",
   "it": "Guarda il video",
@@ -1276,5 +1271,40 @@ window.BRIZON_I18N = {
   "fr": "Sortir sur le côté, hors de la ligne de la riposte, et se replacer.",
   "it": "Esci di lato, fuori dalla linea del contrattacco, e riparti.",
   "pt": "Saia para o lado, fora da linha do contra-ataque, e recomece."
+ },
+ "Five techniques taken from Didier's training videos, broken down frame by frame. Watch the steps, then watch the video.": {
+  "fr": "Cinq techniques tirées des vidéos d'entraînement de Didier, décomposées image par image. Regardez les étapes, puis la vidéo.",
+  "it": "Cinque tecniche prese dai video di allenamento di Didier, scomposte fotogramma per fotogramma. Guarda i passaggi, poi guarda il video.",
+  "pt": "Cinco técnicas tiradas dos vídeos de treino do Didier, decompostas imagem a imagem. Veja os passos e depois o vídeo."
+ },
+ "Teep, kicks and hands on the pads": {
+  "fr": "Teep, coups de pied et poings aux paos",
+  "it": "Teep, calci e pugni ai pao",
+  "pt": "Teep, chutes e socos nos aparadores"
+ },
+ "Pads": {
+  "fr": "Paos",
+  "it": "Pao",
+  "pt": "Aparadores"
+ },
+ "Teep into the belly pad: push through with the ball of the foot, hips forward.": {
+  "fr": "Teep dans la ceinture abdominale : pousser avec la plante du pied, hanches en avant.",
+  "it": "Teep nella cintura addominale: spingi con la pianta del piede, anche in avanti.",
+  "pt": "Teep no protetor abdominal: empurre com a planta do pé, anca para a frente."
+ },
+ "Round kick: pivot on the standing foot and turn the hip over.": {
+  "fr": "Coup de pied circulaire : pivoter sur le pied d'appui et faire tourner la hanche.",
+  "it": "Calcio circolare: ruota sul piede d'appoggio e gira l'anca.",
+  "pt": "Chute circular: rode sobre o pé de apoio e vire a anca."
+ },
+ "High kick: swing the arm down for balance and hit with the shin.": {
+  "fr": "High kick : descendre le bras pour l'équilibre et frapper avec le tibia.",
+  "it": "Calcio alto: abbassa il braccio per l'equilibrio e colpisci con la tibia.",
+  "pt": "Chute alto: baixe o braço para o equilíbrio e acerte com a canela."
+ },
+ "As soon as the leg lands, go back to the hands on the mitts.": {
+  "fr": "Dès que la jambe retombe, enchaîner avec les poings aux pattes d'ours.",
+  "it": "Appena la gamba atterra, torna ai pugni sui colpitori.",
+  "pt": "Assim que a perna cai, volte aos socos nas manoplas."
  }
 };
