@@ -117,11 +117,6 @@ window.BRIZON_I18N = {
   "it": "Il kickboxing nasce quando Tatsuo Yamada, praticante di karate Nihon Kenpo, si interessa alla Muay Thai. Nel 1962 organizza il suo primo evento di karate sportivo, e il promoter di pugilato Osamu Noguchi, colpito da una serata di Muay Thai, vuole organizzare incontri tra karate e Muay Thai.",
   "pt": "O kickboxing nasceu quando Tatsuo Yamada, praticante de karaté Nihon Kenpo, se interessou pelo Muay Thai. Em 1962 organizou o seu primeiro evento de karaté desportivo, e o promotor de boxe Osamu Noguchi, impressionado por uma gala de Muay Thai, quis organizar combates de karaté contra Muay Thai."
  },
- "In 1963 the Oyama dojo sent three fighters to Bangkok: Kenji Kurosaki, Tadashi Nakamura and Akio Fujihira. Kurosaki was the only one to lose, but he went on to become one of the greatest coaches in kick-boxing history. In 1966 the first kick-boxing organisation, the Japan Kickboxing Federation, was born, and the same year Kurosaki travelled to Holland at the invitation of his student Jon Bluming. He is considered the father of Dutch kick-boxing.": {
-  "fr": "En 1963, le dojo Oyama envoie trois combattants à Bangkok : Kenji Kurosaki, Tadashi Nakamura et Akio Fujihira. Kurosaki est le seul à perdre, mais il deviendra l'un des plus grands entraîneurs de l'histoire du kick-boxing. En 1966 naît la première organisation de kick-boxing, la Japan Kickboxing Federation, et la même année Kurosaki part en Hollande à l'invitation de son élève Jon Bluming. Il est considéré comme le père du kick-boxing néerlandais.",
-  "it": "Nel 1963 il dojo Oyama manda tre combattenti a Bangkok: Kenji Kurosaki, Tadashi Nakamura e Akio Fujihira. Kurosaki è l'unico a perdere, ma diventerà uno dei più grandi allenatori della storia del kickboxing. Nel 1966 nasce la prima organizzazione di kickboxing, la Japan Kickboxing Federation, e lo stesso anno Kurosaki va in Olanda su invito del suo allievo Jon Bluming. È considerato il padre del kickboxing olandese.",
-  "pt": "Em 1963 o dojo Oyama enviou três lutadores a Banguecoque: Kenji Kurosaki, Tadashi Nakamura e Akio Fujihira. Kurosaki foi o único a perder, mas tornou-se um dos maiores treinadores da história do kickboxing. Em 1966 nasceu a primeira organização de kickboxing, a Japan Kickboxing Federation, e no mesmo ano Kurosaki foi para a Holanda a convite do seu aluno Jon Bluming. É considerado o pai do kickboxing holandês."
- },
  "Kurosaki left Kyokushin and founded the <strong>Mejiro Gym</strong> in Tokyo's Mejiro district (today the Kurosaki Dojo). It produced some of the most important talent in kick-boxing history.": {
   "fr": "Kurosaki quitte le Kyokushin et fonde le <strong>Mejiro Gym</strong> dans le quartier de Mejiro à Tokyo (aujourd'hui le Kurosaki Dojo). Il a formé certains des plus grands talents de l'histoire du kick-boxing.",
   "it": "Kurosaki lascia il Kyokushin e fonda il <strong>Mejiro Gym</strong> nel quartiere Mejiro di Tokyo (oggi Kurosaki Dojo). Da lì sono usciti alcuni dei più grandi talenti della storia del kickboxing.",
@@ -167,16 +162,6 @@ window.BRIZON_I18N = {
   "it": "L'allenamento era così duro che tutti gli altri europei hanno mollato prima della fine dello stage, tutti tranne Patrick. Disputa il suo primo incontro a Tokyo e lo vince per KO al primo round contro un combattente giapponese.",
   "pt": "O treino era tão duro que todos os outros europeus desistiram antes do fim do estágio, todos menos Patrick. Fez o seu primeiro combate em Tóquio e venceu por KO no primeiro assalto contra um lutador japonês."
  },
- "Back in France he opened the first kick-boxing (Muay Thai) school in the country, the <strong>Kurosaki Dojo</strong> in Clermont-Ferrand, and brought his best karate students into this new discipline that allowed full contact and the KO. The victories followed one another and he became the <strong>first French European champion</strong> (1978/79). He founded three Brizon Gyms in Auvergne: Vichy, Riom and Clermont-Ferrand.": {
-  "fr": "De retour en France, il ouvre la première école de kick-boxing (Muay Thai) du pays, le <strong>Kurosaki Dojo</strong> à Clermont-Ferrand, et entraîne ses meilleurs élèves de karaté dans cette nouvelle discipline qui autorise le plein contact et le KO. Les victoires s'enchaînent et il devient le <strong>premier champion d'Europe français</strong> (1978/79). Il fonde trois Brizon Gym en Auvergne : Vichy, Riom et Clermont-Ferrand.",
-  "it": "Tornato in Francia apre la prima scuola di kickboxing (Muay Thai) del paese, il <strong>Kurosaki Dojo</strong> a Clermont-Ferrand, e porta i suoi migliori allievi di karate in questa nuova disciplina che permette il contatto pieno e il KO. Le vittorie si susseguono e diventa il <strong>primo campione europeo francese</strong> (1978/79). Fonda tre Brizon Gym in Alvernia: Vichy, Riom e Clermont-Ferrand.",
-  "pt": "De volta a França, abriu a primeira escola de kickboxing (Muay Thai) do país, o <strong>Kurosaki Dojo</strong> em Clermont-Ferrand, e levou os seus melhores alunos de karaté para esta nova disciplina que permitia o contacto pleno e o KO. As vitórias sucederam-se e tornou-se o <strong>primeiro campeão europeu francês</strong> (1978/79). Fundou três Brizon Gym na Auvérnia: Vichy, Riom e Clermont-Ferrand."
- },
- "The Kurosaki Dojo team, Clermont-Ferrand. The names are on the shorts: <b>Dimier</b>, <b>Brizon</b> (centre), <b>Fye</b> and, on the right, a young <b>Le Borgne</b>.": {
-  "fr": "L'équipe du Kurosaki Dojo, Clermont-Ferrand. Les noms sont sur les shorts : <b>Dimier</b>, <b>Brizon</b> (au centre), <b>Fye</b> et, à droite, un jeune <b>Le Borgne</b>.",
-  "it": "La squadra del Kurosaki Dojo, Clermont-Ferrand. I nomi sono sui pantaloncini: <b>Dimier</b>, <b>Brizon</b> (al centro), <b>Fye</b> e, a destra, un giovane <b>Le Borgne</b>.",
-  "pt": "A equipa do Kurosaki Dojo, Clermont-Ferrand. Os nomes estão nos calções: <b>Dimier</b>, <b>Brizon</b> (ao centro), <b>Fye</b> e, à direita, um jovem <b>Le Borgne</b>."
- },
  "Timeline": {
   "fr": "Chronologie",
   "it": "Cronologia",
@@ -201,11 +186,6 @@ window.BRIZON_I18N = {
   "fr": "<span>1975</span>Patrick Brizon et Jan Plas s'entraînent tous deux au Mejiro Gym de Kurosaki à Tokyo. Jan Plas ouvre le Mejiro Gym à Amsterdam ; Patrick ouvre la première école de kick-boxing en France.",
   "it": "<span>1975</span>Patrick Brizon e Jan Plas si allenano entrambi al Mejiro Gym di Kurosaki a Tokyo. Jan Plas apre il Mejiro Gym ad Amsterdam; Patrick apre la prima scuola di kickboxing in Francia.",
   "pt": "<span>1975</span>Patrick Brizon e Jan Plas treinam ambos no Mejiro Gym de Kurosaki em Tóquio. Jan Plas abre o Mejiro Gym em Amesterdão; Patrick abre a primeira escola de kickboxing em França."
- },
- "<span>1978/79</span>Patrick Brizon, European champion and pioneer of Thai boxing in France.": {
-  "fr": "<span>1978/79</span>Patrick Brizon, champion d'Europe et pionnier de la boxe thaïlandaise en France.",
-  "it": "<span>1978/79</span>Patrick Brizon, campione europeo e pioniere della boxe thailandese in Francia.",
-  "pt": "<span>1978/79</span>Patrick Brizon, campeão europeu e pioneiro do boxe tailandês em França."
  },
  "<span>5 Mar 1982</span>1st International Kick-Boxing Gala at the Maison des Sports, Clermont-Ferrand.": {
   "fr": "<span>5 mars 1982</span>1er Gala international de kick-boxing à la Maison des Sports de Clermont-Ferrand.",
@@ -306,11 +286,6 @@ window.BRIZON_I18N = {
   "fr": "Il décide de concilier carrière de combattant et enseignement, avec de nombreux allers-retours en Thaïlande et surtout en <strong>Hollande, où Jan Plas devient son maître</strong>. Didier apprend énormément de Jan Plas, en s'entraînant avec ses meilleurs élèves (Kaman, Brilleman, Royers, El Geubli, Yamali et bien d'autres), et Jan Plas lui enseigne les bases du métier d'entraîneur.",
   "it": "Decide di unire la carriera di combattente all'insegnamento, con continui viaggi in Thailandia e soprattutto in <strong>Olanda, dove Jan Plas diventa il suo maestro</strong>. Didier impara moltissimo da Jan Plas, allenandosi con i suoi migliori allievi (Kaman, Brilleman, Royers, El Geubli, Yamali e molti altri), e Jan Plas gli insegna le basi del mestiere di allenatore.",
   "pt": "Decidiu conciliar a carreira de lutador com o ensino, com idas constantes à Tailândia e sobretudo à <strong>Holanda, onde Jan Plas se tornou o seu mestre</strong>. Didier aprendeu muito com Jan Plas, a treinar com os seus melhores alunos (Kaman, Brilleman, Royers, El Geubli, Yamali e muitos outros), e Jan Plas ensinou-lhe as bases de treinador."
- },
- "In those days there was only one international organisation, so only one European champion: the strongest. Didier fought for the European title in a rematch against the Dutchman Lucien Carbin, whom he had beaten hard months earlier. Carbin won by KO in the first round, and he remains the only Dutchman ever to beat Didier.": {
-  "fr": "À l'époque, il n'y avait qu'une seule organisation internationale, donc un seul champion d'Europe : le plus fort. Didier dispute le titre européen lors d'une revanche contre le Néerlandais Lucien Carbin, qu'il avait durement battu quelques mois plus tôt. Carbin gagne par KO au premier round, et reste le seul Néerlandais à avoir jamais battu Didier.",
-  "it": "A quei tempi c'era una sola organizzazione internazionale, quindi un solo campione europeo: il più forte. Didier combatte per il titolo europeo nella rivincita contro l'olandese Lucien Carbin, che aveva battuto duramente pochi mesi prima. Carbin vince per KO al primo round, e resta l'unico olandese ad aver mai battuto Didier.",
-  "pt": "Naquela altura havia uma só organização internacional, portanto um só campeão europeu: o mais forte. Didier disputou o título europeu numa desforra contra o holandês Lucien Carbin, que tinha vencido com dureza meses antes. Carbin ganhou por KO no primeiro assalto, e continua a ser o único holandês que alguma vez venceu Didier."
  },
  "With the Mejiro Gym of Amsterdam, Jan Plas took Didier to Hong Kong, Japan, America, Canada and England to fight successfully for <strong>Team Mejiro</strong>, the strongest and most famous team of the 1980s.": {
   "fr": "Avec le Mejiro Gym d'Amsterdam, Jan Plas emmène Didier à Hong Kong, au Japon, en Amérique, au Canada et en Angleterre pour combattre avec succès pour la <strong>Team Mejiro</strong>, l'équipe la plus forte et la plus célèbre des années 80.",
@@ -1131,5 +1106,35 @@ window.BRIZON_I18N = {
   "fr": "Voir plus de vidéos",
   "it": "Mostra altri video",
   "pt": "Ver mais vídeos"
+ },
+ "the same year Kurosaki travelled to Holland at the invitation of his student Jon Bluming, the pioneer of Kyokushinkai karate in Europe. Kurosaki is considered the father of Dutch kick-boxing.": {
+  "fr": null,
+  "it": null,
+  "pt": null
+ },
+ "In 1963 the Oyama dojo sent three fighters to Bangkok: Kenji Kurosaki, Tadashi Nakamura and Akio Fujihira. Kurosaki was the only one to lose, but he went on to become one of the greatest coaches in kick-boxing history. In 1966 the first kick-boxing organisation, the Japan Kickboxing Federation, was born, and the same year Kurosaki travelled to Holland at the invitation of his student Jon Bluming, the pioneer of Kyokushinkai karate in Europe. Kurosaki is considered the father of Dutch kick-boxing.": {
+  "fr": "En 1963, le dojo Oyama envoie trois combattants à Bangkok : Kenji Kurosaki, Tadashi Nakamura et Akio Fujihira. Kurosaki est le seul à perdre, mais il deviendra l'un des plus grands entraîneurs de l'histoire du kick-boxing. En 1966 naît la première organisation de kick-boxing, la Japan Kickboxing Federation, et la même année Kurosaki part en Hollande à l'invitation de son élève Jon Bluming, le pionnier du karaté Kyokushinkai en Europe. Kurosaki est considéré comme le père du kick-boxing néerlandais.",
+  "it": "Nel 1963 il dojo Oyama manda tre combattenti a Bangkok: Kenji Kurosaki, Tadashi Nakamura e Akio Fujihira. Kurosaki è l'unico a perdere, ma diventerà uno dei più grandi allenatori della storia del kickboxing. Nel 1966 nasce la prima organizzazione di kickboxing, la Japan Kickboxing Federation, e lo stesso anno Kurosaki va in Olanda su invito del suo allievo Jon Bluming, il pioniere del karate Kyokushinkai in Europa. Kurosaki è considerato il padre del kickboxing olandese.",
+  "pt": "Em 1963 o dojo Oyama enviou três lutadores a Banguecoque: Kenji Kurosaki, Tadashi Nakamura e Akio Fujihira. Kurosaki foi o único a perder, mas tornou-se um dos maiores treinadores da história do kickboxing. Em 1966 nasceu a primeira organização de kickboxing, a Japan Kickboxing Federation, e no mesmo ano Kurosaki foi para a Holanda a convite do seu aluno Jon Bluming, o pioneiro do karaté Kyokushinkai na Europa. Kurosaki é considerado o pai do kickboxing holandês."
+ },
+ "Back in France he opened the first kick-boxing (Muay Thai) school in the country, the <strong>Kurosaki Dojo</strong> in Clermont-Ferrand, and brought his best karate students into this new discipline that allowed full contact and the KO. The victories followed one another and he became the <strong>first French European champion</strong>, beating the Dutchman Ron Kuyt on points on 25 February 1979. He founded three Brizon Gyms in Auvergne: Vichy, Riom and Clermont-Ferrand.": {
+  "fr": "De retour en France, il ouvre la première école de kick-boxing (Muay Thai) du pays, le <strong>Kurosaki Dojo</strong> à Clermont-Ferrand, et entraîne ses meilleurs élèves de karaté dans cette nouvelle discipline qui autorise le plein contact et le KO. Les victoires s'enchaînent et il devient le <strong>premier champion d'Europe français</strong>, en battant aux points le Néerlandais Ron Kuyt le 25 février 1979. Il fonde trois Brizon Gym en Auvergne : Vichy, Riom et Clermont-Ferrand.",
+  "it": "Tornato in Francia apre la prima scuola di kickboxing (Muay Thai) del paese, il <strong>Kurosaki Dojo</strong> a Clermont-Ferrand, e porta i suoi migliori allievi di karate in questa nuova disciplina che permette il contatto pieno e il KO. Le vittorie si susseguono e diventa il <strong>primo campione europeo francese</strong>, battendo ai punti l'olandese Ron Kuyt il 25 febbraio 1979. Fonda tre Brizon Gym in Alvernia: Vichy, Riom e Clermont-Ferrand.",
+  "pt": "De volta a França, abriu a primeira escola de kickboxing (Muay Thai) do país, o <strong>Kurosaki Dojo</strong> em Clermont-Ferrand, e levou os seus melhores alunos de karaté para esta nova disciplina que permitia o contacto pleno e o KO. As vitórias sucederam-se e tornou-se o <strong>primeiro campeão europeu francês</strong>, ao vencer aos pontos o holandês Ron Kuyt a 25 de fevereiro de 1979. Fundou três Brizon Gym na Auvérnia: Vichy, Riom e Clermont-Ferrand."
+ },
+ "<span>25 Feb 1979</span>Patrick Brizon becomes European champion, beating the Dutchman Ron Kuyt on points.": {
+  "fr": "<span>25 févr. 1979</span>Patrick Brizon devient champion d'Europe en battant aux points le Néerlandais Ron Kuyt.",
+  "it": "<span>25 feb. 1979</span>Patrick Brizon diventa campione europeo battendo ai punti l'olandese Ron Kuyt.",
+  "pt": "<span>25 fev. 1979</span>Patrick Brizon torna-se campeão europeu ao vencer aos pontos o holandês Ron Kuyt."
+ },
+ "The first Kurosaki Dojo team, Clermont-Ferrand. From left to right: <b>Ferreira</b>, <b>Dimier</b>, <b>Brizon</b> (centre), <b>Faye</b> and a young <b>Le Borgne</b>.": {
+  "fr": "La première équipe du Kurosaki Dojo, Clermont-Ferrand. De gauche à droite : <b>Ferreira</b>, <b>Dimier</b>, <b>Brizon</b> (au centre), <b>Faye</b> et un jeune <b>Le Borgne</b>.",
+  "it": "La prima squadra del Kurosaki Dojo, Clermont-Ferrand. Da sinistra a destra: <b>Ferreira</b>, <b>Dimier</b>, <b>Brizon</b> (al centro), <b>Faye</b> e un giovane <b>Le Borgne</b>.",
+  "pt": "A primeira equipa do Kurosaki Dojo, Clermont-Ferrand. Da esquerda para a direita: <b>Ferreira</b>, <b>Dimier</b>, <b>Brizon</b> (ao centro), <b>Faye</b> e um jovem <b>Le Borgne</b>."
+ },
+ "In those days there was only one international organisation, so only one European champion: the strongest. Didier faced the Dutchman Lucien Carbin twice and lost both fights: the first one, then the rematch for the European title, which Carbin won by KO in the first round. Carbin remains the only Dutchman ever to beat Didier.": {
+  "fr": "À l'époque, il n'y avait qu'une seule organisation internationale, donc un seul champion d'Europe : le plus fort. Didier a affronté deux fois le Néerlandais Lucien Carbin et a perdu les deux combats : le premier, puis la revanche pour le titre européen, que Carbin a remportée par KO au premier round. Carbin reste le seul Néerlandais à avoir jamais battu Didier.",
+  "it": "A quei tempi c'era una sola organizzazione internazionale, quindi un solo campione europeo: il più forte. Didier ha affrontato due volte l'olandese Lucien Carbin e ha perso entrambi gli incontri: il primo, e poi la rivincita per il titolo europeo, che Carbin ha vinto per KO al primo round. Carbin resta l'unico olandese ad aver mai battuto Didier.",
+  "pt": "Naquela altura havia uma só organização internacional, portanto um só campeão europeu: o mais forte. Didier enfrentou duas vezes o holandês Lucien Carbin e perdeu os dois combates: o primeiro e depois a desforra pelo título europeu, que Carbin venceu por KO no primeiro assalto. Carbin continua a ser o único holandês que alguma vez venceu Didier."
  }
 };
