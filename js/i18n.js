@@ -272,11 +272,6 @@ window.BRIZON_I18N = {
   "it": "Il custode dell'eredità",
   "pt": "O guardião do legado"
  },
- "“Il Maestro dei Campioni”: born in France in 1959, one of the European pioneers of kick-boxing and Muay Thai.": {
-  "fr": "« Il Maestro dei Campioni » : né en France en 1959, l'un des pionniers européens du kick-boxing et du Muay Thai.",
-  "it": "«Il Maestro dei Campioni»: nato in Francia nel 1959, uno dei pionieri europei del kickboxing e della Muay Thai.",
-  "pt": "«Il Maestro dei Campioni»: nascido em França em 1959, um dos pioneiros europeus do kickboxing e do Muay Thai."
- },
  "At 13, in the wave of Bruce Lee's films, Didier began karate under Master Patrick Brizon. When Patrick came back from Tokyo and led his best karate students into kick-boxing, Didier was completely fascinated by this more realistic form of fighting, at a time when full-contact competition was still forbidden in France.": {
   "fr": "À 13 ans, dans la vague des films de Bruce Lee, Didier commence le karaté avec Maître Patrick Brizon. Quand Patrick revient de Tokyo et entraîne ses meilleurs élèves de karaté vers le kick-boxing, Didier est complètement fasciné par cette forme de combat plus réaliste, à une époque où la compétition en plein contact était encore interdite en France.",
   "it": "A 13 anni, sull'onda dei film di Bruce Lee, Didier inizia il karate con il Maestro Patrick Brizon. Quando Patrick torna da Tokyo e porta i suoi migliori allievi di karate verso il kickboxing, Didier resta completamente affascinato da questa forma di combattimento più realistica, in un'epoca in cui le gare a contatto pieno erano ancora vietate in Francia.",
@@ -1136,5 +1131,10 @@ window.BRIZON_I18N = {
   "fr": "À l'époque, il n'y avait qu'une seule organisation internationale, donc un seul champion d'Europe : le plus fort. Didier a affronté deux fois le Néerlandais Lucien Carbin et a perdu les deux combats : le premier, puis la revanche pour le titre européen, que Carbin a remportée par KO au premier round. Carbin reste le seul Néerlandais à avoir jamais battu Didier.",
   "it": "A quei tempi c'era una sola organizzazione internazionale, quindi un solo campione europeo: il più forte. Didier ha affrontato due volte l'olandese Lucien Carbin e ha perso entrambi gli incontri: il primo, e poi la rivincita per il titolo europeo, che Carbin ha vinto per KO al primo round. Carbin resta l'unico olandese ad aver mai battuto Didier.",
   "pt": "Naquela altura havia uma só organização internacional, portanto um só campeão europeu: o mais forte. Didier enfrentou duas vezes o holandês Lucien Carbin e perdeu os dois combates: o primeiro e depois a desforra pelo título europeu, que Carbin venceu por KO no primeiro assalto. Carbin continua a ser o único holandês que alguma vez venceu Didier."
+ },
+ "“Il Maestro dei Campioni”: born in Algeria on 25 February 1959, one of the European pioneers of kick-boxing and Muay Thai.": {
+  "fr": "« Il Maestro dei Campioni » : né en Algérie le 25 février 1959, l'un des pionniers européens du kick-boxing et du Muay Thai.",
+  "it": "«Il Maestro dei Campioni»: nato in Algeria il 25 febbraio 1959, uno dei pionieri europei del kickboxing e della Muay Thai.",
+  "pt": "«Il Maestro dei Campioni»: nascido na Argélia a 25 de fevereiro de 1959, um dos pioneiros europeus do kickboxing e do Muay Thai."
  }
 };
