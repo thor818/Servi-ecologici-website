@@ -1,0 +1,18 @@
+{
+  "nome": "Servizi Ecologici",
+  "motto": "Notizie dal pianeta",
+  "editore": "Servizi Ecologici",
+  "descrizione": "Il giornale online di Servizi Ecologici: ogni giorno le notizie più importanti sull'ambiente dal mondo, raccontate in italiano con le fonti sempre citate.",
+  "footer": "Il giornale online sull'ambiente, ogni mattina.",
+  "url": "https://thor818.github.io/Servi-ecologici-website",
+  "email": "",
+  "categorie": {
+    "clima": {"nome": "Clima", "descrizione": "Riscaldamento globale, eventi estremi, conferenze e accordi sul clima."},
+    "energia": {"nome": "Energia", "descrizione": "Rinnovabili, transizione energetica, combustibili fossili ed efficienza."},
+    "biodiversita": {"nome": "Biodiversità", "descrizione": "Specie, ecosistemi, aree protette e tutela della natura."},
+    "oceani": {"nome": "Oceani e acque", "descrizione": "Mari, coste, ghiacci, fiumi e risorse idriche."},
+    "foreste": {"nome": "Foreste e suolo", "descrizione": "Deforestazione, incendi, agricoltura e uso del territorio."},
+    "rifiuti": {"nome": "Rifiuti e riciclo", "descrizione": "Economia circolare, plastica, raccolta differenziata e inquinamento."},
+    "politica": {"nome": "Leggi e politica", "descrizione": "Norme, tribunali, governi e decisioni che cambiano l'ambiente."}
+  }
+}
