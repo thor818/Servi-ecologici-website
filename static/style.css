@@ -1,0 +1,223 @@
+:root {
+  --bg: #fbfaf6;
+  --surface: #ffffff;
+  --ink: #17201b;
+  --muted: #5d6a62;
+  --line: #e3e1d8;
+  --brand: #1f6b45;
+  --brand-dark: #144b30;
+  --brand-soft: #e6f1ea;
+  --clima: #c2410c;
+  --energia: #b7791f;
+  --biodiversita: #2f855a;
+  --oceani: #1d6fa5;
+  --foreste: #6b4f2a;
+  --rifiuti: #6b46c1;
+  --politica: #334155;
+  --serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111613;
+    --surface: #18201b;
+    --ink: #e8ece9;
+    --muted: #9aa8a0;
+    --line: #2a352f;
+    --brand: #4fbf83;
+    --brand-dark: #7fd6a6;
+    --brand-soft: #1c2c23;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.6 var(--sans);
+}
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+
+/* ---------- testata */
+.topbar { border-bottom: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.topbar .wrap { display: flex; justify-content: space-between; gap: 12px; padding-top: 8px; padding-bottom: 8px; }
+.topbar-r a { margin-left: 16px; }
+.topbar-r a:hover { color: var(--brand); }
+
+.masthead { background: var(--surface); border-bottom: 3px double var(--line); }
+.brand { display: flex; align-items: center; justify-content: center; gap: 16px; padding: 26px 0 20px; }
+.brand-name { display: block; font: 900 clamp(32px, 6vw, 58px)/1 var(--serif); letter-spacing: -0.02em; color: var(--brand-dark); }
+.brand-motto { display: block; margin-top: 6px; font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); }
+
+.nav { border-top: 1px solid var(--line); }
+.nav .wrap { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; justify-content: center; }
+.nav .wrap::-webkit-scrollbar { display: none; }
+.nav a { white-space: nowrap; padding: 12px 12px; font-size: 14px; font-weight: 600; color: var(--muted); border-bottom: 2px solid transparent; }
+.nav a:hover { color: var(--ink); border-bottom-color: var(--brand); }
+@media (max-width: 900px) { .nav .wrap { justify-content: flex-start; } }
+
+main.wrap { padding-top: 32px; padding-bottom: 56px; }
+
+/* ---------- meta & etichette */
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+.dot { opacity: .6; }
+.kicker { font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: 12px; }
+.kicker-clima { color: var(--clima); }
+.kicker-energia { color: var(--energia); }
+.kicker-biodiversita { color: var(--biodiversita); }
+.kicker-oceani { color: var(--oceani); }
+.kicker-foreste { color: var(--foreste); }
+.kicker-rifiuti { color: var(--rifiuti); }
+.kicker-politica { color: var(--politica); }
+@media (prefers-color-scheme: dark) { .kicker { filter: brightness(1.6); } }
+
+.section-label {
+  font: 700 13px/1 var(--sans); text-transform: uppercase; letter-spacing: .14em;
+  color: var(--muted); margin: 44px 0 18px; padding-top: 14px; border-top: 2px solid var(--ink);
+}
+
+/* ---------- copertine illustrate */
+.cover {
+  position: relative; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden;
+  display: flex; align-items: center; justify-content: center; margin-bottom: 14px;
+  background: var(--c, var(--brand));
+}
+.cover::before {
+  content: ""; position: absolute; inset: 0;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(255,255,255,.22), transparent 45%),
+    radial-gradient(circle at 85% 90%, rgba(0,0,0,.25), transparent 50%),
+    repeating-linear-gradient(135deg, rgba(255,255,255,.05) 0 2px, transparent 2px 14px);
+}
+.cover img { position: relative; width: 22%; max-width: 120px; opacity: .95; }
+.cover span {
+  position: absolute; left: 14px; bottom: 12px; color: #fff; font-size: 12px; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; opacity: .9;
+}
+.cover-xl { aspect-ratio: 21 / 9; }
+.cover-xl img { width: 14%; }
+.cover-clima { --c: linear-gradient(135deg, #f97316, #9a3412); }
+.cover-energia { --c: linear-gradient(135deg, #f6c445, #b7791f); }
+.cover-biodiversita { --c: linear-gradient(135deg, #48bb78, #1f5e3c); }
+.cover-oceani { --c: linear-gradient(135deg, #38a3d8, #154e7a); }
+.cover-foreste { --c: linear-gradient(135deg, #a27b46, #4a3519); }
+.cover-rifiuti { --c: linear-gradient(135deg, #9f7aea, #4c2a92); }
+.cover-politica { --c: linear-gradient(135deg, #64748b, #1e293b); }
+
+/* ---------- prima pagina */
+.lead { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 40px; }
+.lead-main h1 { font: 800 clamp(28px, 4vw, 46px)/1.08 var(--serif); letter-spacing: -0.015em; margin: 4px 0 12px; }
+.lead-main a:hover h1 { color: var(--brand); }
+.standfirst { font-size: 19px; line-height: 1.5; color: var(--muted); margin: 0; }
+.lead-side { border-left: 1px solid var(--line); padding-left: 32px; }
+.lead-side .section-label { margin-top: 0; }
+.side-list { list-style: none; margin: 0; padding: 0; counter-reset: n; }
+.side-list li { counter-increment: n; padding: 14px 0 14px 40px; border-bottom: 1px solid var(--line); position: relative; }
+.side-list li::before {
+  content: counter(n); position: absolute; left: 0; top: 10px;
+  font: 800 28px/1 var(--serif); color: var(--brand);
+}
+.side-list h3 { font: 700 18px/1.3 var(--serif); margin: 0; }
+.side-list a:hover h3 { color: var(--brand); }
+@media (max-width: 860px) {
+  .lead { grid-template-columns: 1fr; gap: 8px; }
+  .lead-side { border-left: 0; padding-left: 0; }
+  .lead-side .section-label { margin-top: 32px; }
+}
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 28px; }
+.card h3 { font: 700 21px/1.25 var(--serif); margin: 0 0 8px; }
+.card p { margin: 0; color: var(--muted); font-size: 15px; }
+.card-link:hover h3 { color: var(--brand); }
+
+.newsletter {
+  margin-top: 52px; padding: 28px 32px; border-radius: 8px; background: var(--brand-soft);
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+}
+.newsletter h2 { font: 800 26px/1.2 var(--serif); margin: 0 0 6px; color: var(--brand-dark); }
+.newsletter p { margin: 0; max-width: 640px; }
+@media (max-width: 700px) { .newsletter { flex-direction: column; align-items: flex-start; padding: 24px; } }
+.btn {
+  display: inline-block; white-space: nowrap; background: var(--brand); color: #fff; font-weight: 700;
+  padding: 12px 22px; border-radius: 999px;
+}
+.btn:hover { background: var(--brand-dark); }
+@media (prefers-color-scheme: dark) { .btn { color: #0d1a12; } }
+
+.cat-chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.cat-chip {
+  display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px 8px 8px;
+  border-radius: 999px; background: var(--surface); border: 1px solid var(--line); font-weight: 600;
+}
+.cat-chip img { width: 30px; height: 30px; padding: 6px; border-radius: 50%; background: var(--c); }
+.cat-chip em { font-style: normal; color: var(--muted); font-weight: 500; font-size: 13px; }
+.cat-chip:hover { border-color: var(--brand); }
+.cat-chip-clima img { --c: var(--clima); }
+.cat-chip-energia img { --c: var(--energia); }
+.cat-chip-biodiversita img { --c: var(--biodiversita); }
+.cat-chip-oceani img { --c: var(--oceani); }
+.cat-chip-foreste img { --c: var(--foreste); }
+.cat-chip-rifiuti img { --c: var(--rifiuti); }
+.cat-chip-politica img { --c: var(--politica); }
+
+/* ---------- articolo */
+.article { max-width: 760px; margin: 0 auto; }
+.article-head h1 { font: 800 clamp(30px, 5vw, 48px)/1.1 var(--serif); letter-spacing: -0.015em; margin: 6px 0 14px; }
+.article-head .standfirst { margin-bottom: 26px; }
+.article-body { font: 400 19px/1.75 var(--serif); }
+.article-body p { margin: 0 0 1.2em; }
+.article-body h2 { font: 700 24px/1.3 var(--serif); margin: 1.6em 0 .6em; }
+.article-body ul { padding-left: 1.2em; margin: 0 0 1.2em; }
+.article-body li { margin-bottom: .4em; }
+.article-body a { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+.article-body blockquote {
+  margin: 1.4em 0; padding: 4px 0 4px 22px; border-left: 4px solid var(--brand);
+  font-style: italic; font-size: 21px; color: var(--muted);
+}
+.sources { margin-top: 36px; padding: 22px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; font-size: 15px; }
+.sources h2 { margin: 0 0 10px; font: 700 13px/1 var(--sans); text-transform: uppercase; letter-spacing: .14em; color: var(--muted); }
+.sources ul { margin: 0 0 12px; padding-left: 1.2em; }
+.sources a { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+.sources p { margin: 0; color: var(--muted); font-size: 13px; }
+.share { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 22px; font-size: 14px; }
+.share span { color: var(--muted); font-weight: 600; margin-right: 4px; }
+.share a { padding: 7px 14px; border: 1px solid var(--line); border-radius: 999px; font-weight: 600; }
+.share a:hover { border-color: var(--brand); color: var(--brand); }
+
+/* ---------- liste */
+.page-head { display: flex; align-items: center; gap: 18px; padding-bottom: 20px; border-bottom: 2px solid var(--ink); }
+.page-head img { padding: 10px; border-radius: 50%; background: var(--brand); width: 56px; height: 56px; }
+.page-head h1 { font: 800 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 0; }
+.page-head p { margin: 4px 0 0; color: var(--muted); }
+.page-head-clima img { background: var(--clima); }
+.page-head-energia img { background: var(--energia); }
+.page-head-biodiversita img { background: var(--biodiversita); }
+.page-head-oceani img { background: var(--oceani); }
+.page-head-foreste img { background: var(--foreste); }
+.page-head-rifiuti img { background: var(--rifiuti); }
+.page-head-politica img { background: var(--politica); }
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { border-bottom: 1px solid var(--line); }
+.list a { display: block; padding: 20px 0; }
+.list h3 { font: 700 22px/1.25 var(--serif); margin: 0 0 6px; }
+.list p { margin: 0; color: var(--muted); }
+.list a:hover h3 { color: var(--brand); }
+.list .empty { padding: 24px 0; color: var(--muted); }
+
+/* ---------- footer */
+.footer { border-top: 1px solid var(--line); background: var(--surface); padding: 32px 0 40px; font-size: 14px; color: var(--muted); }
+.footer-brand { display: flex; gap: 12px; align-items: center; color: var(--ink); margin-bottom: 14px; }
+.footer-note { max-width: 760px; margin: 8px 0 0; }
+.footer a { color: var(--brand); }
+
+@media (max-width: 600px) {
+  .wrap { padding: 0 16px; }
+  .brand { gap: 12px; padding: 20px 0 16px; }
+  .brand img { width: 44px; height: 44px; }
+  .topbar span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .article-body { font-size: 18px; }
+}
