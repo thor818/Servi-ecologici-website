@@ -17,3 +17,8 @@ importanti dal mondo, scritte in italiano con le fonti sempre citate.
 - Nome, motto, indirizzo del sito, email e sezioni: `config.json`.
 - Testo della pagina «Chi siamo»: `chi-siamo.md`.
 - Grafica: `static/style.css`.
+
+## Sito Brizon Gym
+
+La cartella `brizon/` contiene il sito Brizon Gym, pubblicato su Vercel (https://brizon-gym.vercel.app)
+tramite `vercel.json`. Non cancellarla: il giornale usa solo `docs/` e non la tocca.
